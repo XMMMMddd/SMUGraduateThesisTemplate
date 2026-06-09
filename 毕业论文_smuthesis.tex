@@ -1,0 +1,141 @@
+% 南方医科大学研究生毕业论文
+% 使用 smuthesis.cls 模板
+\documentclass[master]{smuthesis}  % master=硕士，不加选项=博士
+
+% ===== 额外宏包 =====
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[
+  backend=biber,
+  style=gb7714-2015,
+  sorting=none,
+  gbcitecomp=false,
+  gbnamefmt=lowercase,
+  doi=false,
+  url=false,
+  isbn=false
+]{biblatex}
+\addbibresource{mybib.bib}
+
+% ===== 论文信息 =====
+\title{基于家系和独立个体混合数据的 X 染色体上常见变异和罕见变异定位研究}
+\englishtitle{Mapping common and rare variants on the X chromosome based on the mixture of general pedigrees and additional unrelated individuals}
+\coverctitle{基于家系和独立个体混合数据的 X 染色体上}{常见变异和罕见变异定位研究}
+\coveretitle{Mapping common and rare variants on the X}{chromosome based on the mixture of general}{pedigrees and additional unrelated individuals}
+\titlectitle{基于家系和独立个体混合数据的 X 染色体上常见变异和}{罕见变异定位研究}
+\titleetitle{Mapping common and rare variants on the X chromosome}{based on the mixture of general pedigrees and additional}{unrelated individuals}
+\schoolnameimage{图片/image.png}
+\author{李远盛}
+\supervisor{周基元\quad 教授}
+\institute{公共卫生学院}
+\grade{2026级}
+\classification{}
+\secret{}
+\UDC{}
+\studentnumber{}
+\major{流行病与卫生统计学}
+\trainingtype{学术型}
+\degreelevel{硕士}
+\funding{国家自然科学基金（82173619）}
+\fundinglines{国家自然科学基金（82173619）}{广东省基础与应用基础研究基金（2023A1515011242）}
+\submitdate{2026年5月17日}
+\titlepagedate{2026年5月8日}
+\location{广州}
+\defensechair{赵\quad 星\quad 教授}
+\defensemembers{刘玉秀\quad 教授\\凌\quad 莉\quad 教授\\田国梁\quad 教授\\欧春泉\quad 教授}
+\date{2026年6月}
+
+\begin{document}
+
+% ===== 封面 =====
+\maketitle
+
+% ===== 前置部分（摘要、目录） =====
+\frontmatter
+
+% --- 中文摘要 ---
+\makeabstractCNhead
+
+在此填写中文摘要内容。
+
+\keywordsCN{关键词1；关键词2；关键词3}
+
+% --- 英文摘要 ---
+\makeabstractENhead
+
+Write your English abstract here.
+
+\keywordsEN{keyword1; keyword2; keyword3}
+
+% --- 目录 ---
+\tableofcontents
+
+% ===== 正文部分 =====
+\mainmatter
+
+\chapter{绪论}
+
+\section{研究背景}
+
+在此填写研究背景。
+
+\section{研究目的与意义}
+
+在此填写研究目的与意义。
+
+\section{国内外研究现状}
+
+在此填写国内外研究现状。
+
+\chapter{材料与方法}
+
+\section{研究设计}
+
+在此填写研究设计。
+
+\section{统计分析方法}
+
+在此填写统计分析方法。
+
+\chapter{结果}
+
+\section{主要结果}
+
+在此填写主要结果。
+
+\chapter{讨论}
+
+\section{讨论与分析}
+
+在此填写讨论内容。
+
+\chapter{结论}
+
+在此填写结论。
+
+% ===== 后置部分 =====
+\backmatter
+
+% --- 参考文献 ---
+% Zotero/Better BibTeX 建议用 Better BibLaTeX 格式导出到 mybib.bib。
+% 如需临时列出 mybib.bib 中的全部文献，可取消下一行注释。
+% \nocite{*}
+\printbibliography[heading=smubibliography,title={参考文献}]
+
+% --- 致谢 ---
+\chapter*{致\quad 谢}
+\addcontentsline{toc}{chapter}{致谢}
+
+在此填写致谢内容。
+
+% --- 攻读学位期间成果 ---
+\chapter*{攻读学位期间取得的研究成果}
+\addcontentsline{toc}{chapter}{攻读学位期间取得的研究成果}
+
+在此填写攻读学位期间取得的研究成果。
+
+\end{document}
