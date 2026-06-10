@@ -1,23 +1,39 @@
 # 南方医科大学研究生毕业论文 LaTeX 模板
 
-本项目用于编写南方医科大学研究生毕业论文，提供一套基于 LaTeX 的论文模板文件，适用于硕士、博士学位论文的排版与编译。
+这是一个非官方的南方医科大学研究生毕业论文 LaTeX 模板，用于硕士、博士学位论文排版。模板目前按本仓库示例论文调试，最终格式仍应以学校或学院发布的最新要求为准。
 
-## 项目内容
+## 文件说明
 
-- `毕业论文_smuthesis.tex`：论文主文件，用于填写论文题目、作者、导师、摘要、正文、参考文献、致谢等内容。
-- `smuthesis.cls`：南方医科大学研究生毕业论文文档类文件，定义封面、章节、字体、页眉页脚、图表标题等排版格式。
-- `图片/image.png`：封面页使用的“南方医科大学”校名字图。
-- 编译后会生成 `毕业论文_smuthesis.pdf` 示例 PDF。
+- `毕业论文_smuthesis.tex`：论文主文件示例，包含封面信息、摘要、正文、参考文献、致谢、附录和版权页的基本结构。
+- `smuthesis.cls`：模板类文件，定义封面、标题页、字体、章节标题、页眉页脚、图表标题、横向页面和版权页。
+- `mybib.bib`：参考文献数据库示例。
+- `图片/image.png`：封面使用的“南方医科大学”校名字图。
 
-## 使用方式
+## 主要特性
 
-1. 修改 `毕业论文_smuthesis.tex` 中的论文基本信息：
+- 支持硕士/博士论文：`\documentclass[master]{smuthesis}` 为硕士，不加 `master` 默认为博士。
+- 支持草稿模式：`\documentclass[master,draft]{smuthesis}`。
+- 封面和题名页支持中文 1-2 行、英文 1-3 行手动分行。
+- 正文小四号宋体、1.5 倍行距；一、二、三级标题为加粗宋体。
+- `biblatex + biber` 数字顺序制引用，正文引用显示为上标方括号，如 `[1]`。
+- 图表支持中英文双语 caption，英文行自动显示 `Figure 1-1` / `Table 1-1`。
+- 横向页面使用 `smulandscape` 环境，页眉和页码会随页面横向旋转。
+- 参考文献、致谢、附录等无编号章节可用 `\smusetfronthead{...}` 设置偶数页页眉。
+- 内置原创性声明和论文版权使用授权书：`\makecopyrightpage`。
+
+## 快速开始
+
+1. 安装 TeX Live 或 MacTeX，并使用 XeLaTeX 编译。
+
+2. 修改 `毕业论文_smuthesis.tex` 中的论文信息：
 
    ```tex
    \title{论文标题}
    \englishtitle{English Thesis Title}
    \coverctitle{中文题名第一行}{中文题名第二行}
    \coveretitle{English title line one}{English title line two}{English title line three}
+   \titlectitle{题名页中文题名第一行}{题名页中文题名第二行}
+   \titleetitle{Title page English line one}{Title page English line two}{Title page English line three}
    \schoolnameimage{图片/image.png}
    \author{作者姓名}
    \supervisor{导师姓名\quad 教授}
@@ -27,25 +43,16 @@
    \trainingtype{学术型}
    \degreelevel{硕士}
    \funding{课题来源}
+   \fundinglines{课题来源第一行}{课题来源第二行}
    \submitdate{2026年6月}
    \titlepagedate{2026年6月}
    \location{广州}
+   \defensechair{主席姓名\quad 教授}
+   \defensemembers{委员一\quad 教授\\委员二\quad 教授}
    \date{2026年6月}
    ```
 
-   `\coverctitle` 和 `\coveretitle` 用于控制封面页题名的手动分行。封面模板按学校 Word 模板样式固定为 2 行中文题名和 3 行英文题名，每一行下方都有横线。
-
-2. 根据需要选择学位类型：
-
-   ```tex
-   \documentclass[master]{smuthesis}
-   ```
-
-   其中 `master` 表示硕士论文；不加该选项时默认为博士论文。
-
-3. 在主文件中填写中文摘要、英文摘要、正文各章节、参考文献、致谢和研究成果等内容。
-
-4. 使用 XeLaTeX + Biber 编译：
+3. 编译：
 
    ```bash
    xelatex 毕业论文_smuthesis.tex
@@ -54,9 +61,11 @@
    xelatex 毕业论文_smuthesis.tex
    ```
 
-## 参考文献
+## 常用写法
 
-模板主文件默认使用 `biblatex`、`biber` 和国标数字顺序制样式 `gb7714-2015`：
+### 参考文献
+
+模板示例使用 `biblatex`、`biber` 和 `gb7714-2015`：
 
 ```tex
 \usepackage[
@@ -72,25 +81,93 @@
 \addbibresource{mybib.bib}
 ```
 
-推荐在 Zotero 中使用 Better BibTeX 插件，将文献库或分组用 `Better BibLaTeX` 格式自动导出为项目根目录下的 `mybib.bib`。正文中使用 `\cite{文献key}` 引用，参考文献位置使用：
+正文使用 `\cite{key}`、`\citep{key}` 或 `\autocite{key}`。参考文献列表写作：
 
 ```tex
 \printbibliography[heading=smubibliography,title={参考文献}]
 ```
 
+### 双语图表标题
+
+普通图表推荐使用：
+
+```tex
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.8\textwidth]{图片/example.pdf}
+  \smubicaption{中文图题}{English caption}
+  \label{fig:example}
+\end{figure}
+```
+
+表格同样使用 `\smubicaption{中文表题}{English caption}`。如果需要在浮动体外写标题，可使用：
+
+```tex
+\smubicaptionof{figure}{中文图题}{English caption}
+\smubicaptionof{table}{中文表题}{English caption}
+```
+
+算法环境建议继续使用普通 `\caption{...}`，不强制双语 caption。
+
+### 横向页面
+
+宽表格或横向图可放入 `smulandscape` 环境：
+
+```tex
+\begin{smulandscape}
+  \begin{table}[p]
+    \centering
+    \smubicaption{中文表题}{English caption}
+    ...
+  \end{table}
+\end{smulandscape}
+```
+
+横向页面会保留旋转后的页眉和页码。
+
+### 无编号章节页眉
+
+对致谢、附录、研究成果等 `\chapter*` 章节，先设置页眉文字：
+
+```tex
+\smusetfronthead{致谢}
+\chapter*{致\quad 谢}
+\addcontentsline{toc}{chapter}{致谢}
+```
+
+附录可写作：
+
+```tex
+\appendix
+\smusetfronthead{附录}
+\chapter*{附录}
+\addcontentsline{toc}{chapter}{附录}
+```
+
+### 版权页
+
+在论文最后调用：
+
+```tex
+\makecopyrightpage
+```
+
+该命令生成“南方医科大学学位论文原创性声明”和“学位论文版权使用授权书”。
+
 ## 字体说明
 
-当前模板主要面向 macOS 环境，`smuthesis.cls` 中默认配置了以下中文字体：
+当前模板主要面向 macOS，默认中文字体为：
 
 - 宋体：`STSong`
 - 黑体：`Heiti SC Light`
 - 楷体：`STKaiti`
 - 仿宋：`STFangsong`
 
-如需在 Windows 或 Linux 环境中使用，请根据本机已安装字体修改 `smuthesis.cls` 中的 `\setCJKmainfont`、`\setCJKsansfont`、`\setCJKmonofont` 等配置。
+Windows 或 Linux 用户需要根据本机字体修改 `smuthesis.cls` 中的 `\setCJKmainfont`、`\setCJKsansfont`、`\setCJKmonofont` 和相关字体族配置。
 
-## 注意事项
+## 发布前检查
 
-- 建议使用 TeX Live 或 MacTeX，并通过 XeLaTeX 编译。
-- 编译产生的 `.aux`、`.log`、`.toc`、`.out`、`.synctex.gz` 等辅助文件已通过 `.gitignore` 忽略。
-- 本模板用于论文写作和排版参考，最终格式要求请以南方医科大学研究生院或所在学院发布的最新论文规范为准。
+- 确认 `mybib.bib` 中没有个人隐私或无关文献。
+- 确认 `.gitignore` 已排除 LaTeX 编译产物、PDF 和本地 Word 文件。
+- 使用完整流程至少编译一次，确认目录、参考文献、页眉页码和图表编号正常。
+- 本模板为排版参考，不代表学校官方发布版本。

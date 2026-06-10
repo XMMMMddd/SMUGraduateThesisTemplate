@@ -8,7 +8,6 @@
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{hyperref}
-\usepackage[utf8]{inputenc}
 \usepackage[
   backend=biber,
   style=gb7714-2015,
@@ -22,15 +21,15 @@
 \addbibresource{mybib.bib}
 
 % ===== 论文信息 =====
-\title{基于家系和独立个体混合数据的 X 染色体上常见变异和罕见变异定位研究}
-\englishtitle{Mapping common and rare variants on the X chromosome based on the mixture of general pedigrees and additional unrelated individuals}
-\coverctitle{基于家系和独立个体混合数据的 X 染色体上}{常见变异和罕见变异定位研究}
-\coveretitle{Mapping common and rare variants on the X}{chromosome based on the mixture of general}{pedigrees and additional unrelated individuals}
-\titlectitle{基于家系和独立个体混合数据的 X 染色体上常见变异和}{罕见变异定位研究}
-\titleetitle{Mapping common and rare variants on the X chromosome}{based on the mixture of general pedigrees and additional}{unrelated individuals}
+\title{基于XXX的YYY研究}
+\englishtitle{Research on YYY based on XXX}
+\coverctitle{基于XXX的}{YYY研究}
+\coveretitle{Research on YYY}{based on XXX}{}
+\titlectitle{基于XXX的YYY研究}{}
+\titleetitle{Research on YYY based on XXX}{}{}
 \schoolnameimage{图片/image.png}
-\author{李远盛}
-\supervisor{周基元\quad 教授}
+\author{张\quad 三}
+\supervisor{李\quad 四\quad 教授}
 \institute{公共卫生学院}
 \grade{2026级}
 \classification{}
@@ -40,13 +39,13 @@
 \major{流行病与卫生统计学}
 \trainingtype{学术型}
 \degreelevel{硕士}
-\funding{国家自然科学基金（82173619）}
-\fundinglines{国家自然科学基金（82173619）}{广东省基础与应用基础研究基金（2023A1515011242）}
+\funding{国家自然科学基金（XXXXXXXXXX）}
+\fundinglines{国家自然科学基金（XXXXXXXXXX）}{广东省基础与应用基础研究基金（XXXXXXXXXX）}
 \submitdate{2026年5月17日}
 \titlepagedate{2026年5月8日}
 \location{广州}
-\defensechair{赵\quad 星\quad 教授}
-\defensemembers{刘玉秀\quad 教授\\凌\quad 莉\quad 教授\\田国梁\quad 教授\\欧春泉\quad 教授}
+\defensechair{王\quad 五\quad 教授}
+\defensemembers{委\quad 员\quad 一\quad 教授\\委\quad 员\quad 二\quad 教授\\委\quad 员\quad 三\quad 教授\\委\quad 员\quad 四\quad 教授}
 \date{2026年6月}
 
 \begin{document}
@@ -127,15 +126,28 @@ Write your English abstract here.
 \printbibliography[heading=smubibliography,title={参考文献}]
 
 % --- 致谢 ---
+\smusetfronthead{致谢}
 \chapter*{致\quad 谢}
 \addcontentsline{toc}{chapter}{致谢}
 
 在此填写致谢内容。
 
 % --- 攻读学位期间成果 ---
+\smusetfronthead{攻读学位期间取得的研究成果}
 \chapter*{攻读学位期间取得的研究成果}
 \addcontentsline{toc}{chapter}{攻读学位期间取得的研究成果}
 
 在此填写攻读学位期间取得的研究成果。
+
+% --- 附录 ---
+\appendix
+\smusetfronthead{附录}
+\chapter*{附录}
+\addcontentsline{toc}{chapter}{附录}
+
+在此填写附录内容；如无附录，可删除本节。
+
+% --- 原创性声明和版权使用授权书 ---
+\makecopyrightpage
 
 \end{document}

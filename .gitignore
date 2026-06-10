@@ -17,6 +17,7 @@
 *.toc
 *.xdv
 *.pdf
+*.doc
 
 # Editor and OS files
 .DS_Store
