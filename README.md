@@ -164,10 +164,3 @@
 - 仿宋：`STFangsong`
 
 Windows 或 Linux 用户需要根据本机字体修改 `smuthesis.cls` 中的 `\setCJKmainfont`、`\setCJKsansfont`、`\setCJKmonofont` 和相关字体族配置。
-
-## 发布前检查
-
-- 确认 `mybib.bib` 中没有个人隐私或无关文献。
-- 确认 `.gitignore` 已排除 LaTeX 编译产物、PDF 和本地 Word 文件。
-- 使用完整流程至少编译一次，确认目录、参考文献、页眉页码和图表编号正常。
-- 本模板为排版参考，不代表学校官方发布版本。
