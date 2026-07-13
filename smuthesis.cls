@@ -118,10 +118,10 @@
 
 %% 设置页面布局
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\RequirePackage[left=3.2cm,right=3.2cm,bottom=2.8cm,top=4.1cm,%设置页面边距
- headheight=1.5cm,%页眉所占高度
- headsep=1cm,%页眉到正文的距离
- footskip=1cm %页脚所占高度
+\RequirePackage[left=3.175cm,right=3.175cm,bottom=2.54cm,top=2.54cm,%正文页边距
+ headheight=0.5cm,%页眉高度
+ headsep=0.5cm,%页眉到正文的距离
+ footskip=0.5cm %正文底端到页码基线的距离
 ]{geometry}
 
 %% 字体设置
@@ -152,10 +152,10 @@
 %%\setCJKfamilyfont{kai}{KaiTi_GB2312}
 %%\setCJKfamilyfont{fang}{FangSong_GB2312}
 %------------for mac----------------
-\setCJKmainfont{STSong}%衬线字体
+\setCJKmainfont{Songti SC}%衬线字体
 \setCJKsansfont{Heiti SC Light}%serif是有衬线字体sans serif无衬线字体。
 \setCJKmonofont{STFangsong}%中文等宽字体
-\setCJKfamilyfont{song}{STSong}
+\setCJKfamilyfont{song}{Songti SC}
 \setCJKfamilyfont{hei}{Heiti SC Light}
 \setCJKfamilyfont{kai}[Path=/System/Library/AssetsV2/com_apple_MobileAsset_Font8/6331c5916c361af1b83fb8b8b76ef2eece20c8eb.asset/AssetData/]{Kai.ttf}
 \setCJKfamilyfont{fang}{STFangsong}
@@ -219,15 +219,16 @@
 \newcommand{\absnameen}{\heiti\xiaosihao}               % 英文``Abstract''字样的字体
 \newcommand{\abskeyen}{\bfseries\xiaosihao}   % 英文``KEY WORDS''字样的字体
 \newcommand{\abskeysen}{\songti\xiaosihao\normalfont}        % 英文关键字的字体
-\newcommand{\headfont}{\normalfont\kaiti\wuhao} 	% 页眉字体
-\newcommand{\toctitlefont}{\heiti\xiaoerhao}            % “目录”字样的字体
+\newcommand{\headfont}{\normalfont\kaiti\wuhao} 	% 页眉字体：楷体五号
+\newcommand{\smufooterfont}{\normalfont\xiaowuhao} % 页码字体：Times New Roman 小五
+\newcommand{\toctitlefont}{\centering\normalfont\songti\bfseries\fontsize{15pt}{22.5pt}\selectfont} % “目录”字样：宋体加粗 15 磅
 \newcommand{\tocchapterfont}{\normalfont\heiti\fontsize{14pt}{23.4pt}\selectfont} % 目录一级标题：黑体四号，23.4 磅行距
 \newcommand{\tocsectionfont}{\normalfont\songti\fontsize{12pt}{23.4pt}\selectfont}         % 目录二级标题：小四，23.4 磅行距
 \newcommand{\tocsubsectionfont}{\normalfont\songti\fontsize{12pt}{23.4pt}\selectfont}      % 目录三级标题：小四，23.4 磅行距
 \newcommand{\tocsubsubsectionfont}{\normalfont\songti\fontsize{12pt}{23.4pt}\selectfont}      % 目录四级标题：小四，23.4 磅行距
-\newcommand{\textchapterfont}{\centering\normalfont\songti\bfseries\fontsize{18pt}{27pt}\selectfont} % 正文一级标题：加粗宋体小二，1.5 倍行距
+\newcommand{\textchapterfont}{\centering\normalfont\songti\bfseries\fontsize{16pt}{24pt}\selectfont} % 正文一级标题：加粗宋体 16 磅，1.5 倍行距
 \newcommand{\textsectionfont}{\normalfont\songti\bfseries\fontsize{14pt}{21pt}\selectfont}            % 正文二级标题：加粗宋体四号，1.5 倍行距
-\newcommand{\textsubsectionfont}{\normalfont\songti\bfseries\fontsize{14pt}{21pt}\selectfont}     % 正文三级标题：加粗宋体四号，1.5 倍行距
+\newcommand{\textsubsectionfont}{\normalfont\songti\bfseries\fontsize{12pt}{18pt}\selectfont}     % 正文三级标题：加粗宋体小四，1.5 倍行距
 \newcommand{\textsubsubsectionfont}{\heiti\xiaosihao}     % 正文上X.Y.Z.K小节的字体
 \newcommand{\footnotefont}{\songti\xiaowuhao\normalfont}     % 脚注字体
 \newcommand{\ftcaptionfont}{\songti\fontsize{10pt}{16pt}\selectfont\normalfont}         % 图表标题：10 磅宋体，16 磅行距
@@ -534,9 +535,9 @@
 
 %\titlespacing{\chapter}{0pt}{3ex plus .5ex minus .5ex}{3ex plus .5ex minus .5ex} % 缩短章节标题的上边距
 \setlength{\parskip}{0ex}% 正文段前段后距：无空行
-\titlespacing{\chapter}{0pt}{-20pt}{12pt} % 一级标题：段前靠近页眉，段后 12 磅
+\titlespacing{\chapter}{0pt}{12pt}{12pt} % 一级标题：段前/段后 12 磅
 \titlespacing{\section}{0pt}{12pt}{12pt}  % 二级标题：段前/段后 12 磅
-\titlespacing{\subsection}{0pt}{10.5pt}{10.5pt} % 三级标题：段前/段后 0.5 行
+\titlespacing{\subsection}{0pt}{7.8pt}{7.8pt} % 三级标题：段前/段后 7.8 磅
 \titlespacing{\subsubsection}{0pt}{6pt}{6pt}
 
 \newcommand{\linespacing}[1]{\linespread{#1}\selectfont}% 行距命令
@@ -910,10 +911,10 @@
 \newpagestyle{smuthesisstyle}{
   \sethead[][{\headfont{}\if@mainmatter\chaptertitlename\quad\chaptertitle\else\smu@fronthead\fi}][]% 偶数页：章节名/前置部分标题
   {}{{\headfont{}\@degree{}学位论文}}{}% 奇数页：学位论文类型
-  \setfoot[][\headfont{}\thepage][]% 偶数页页码居中
-  {}{\headfont{}\thepage}{}% 奇数页页码居中
+  \setfoot[][\smufooterfont{}\thepage][]% 偶数页页码居中
+  {}{\smufooterfont{}\thepage}{}% 奇数页页码居中
   \headrule
-  \setheadrule{0.5pt}
+  \setheadrule{0.75pt}
 }
 
 \newpagestyle{smutocstyle}{
@@ -921,7 +922,7 @@
   {}{{\headfont{}\@degree{}学位论文}}{}% 奇数页：学位论文类型
   \setfoot[][][]{}{}{}% 目录页底部不显示页码
   \headrule
-  \setheadrule{0.5pt}
+  \setheadrule{0.75pt}
 }
 
 \newpagestyle{smulandscapestyle}{%
@@ -930,7 +931,7 @@
   \setheadrule{0pt}%
 }
 \newlength{\smu@landscapeheadwidth}
-\setlength{\smu@landscapeheadwidth}{\dimexpr\paperheight-6.4cm\relax}
+\setlength{\smu@landscapeheadwidth}{\dimexpr\paperheight-6.35cm\relax}
 \newcommand{\smu@landscapeevenheadtext}{%
   \if@mainmatter\chaptertitlename\quad\chaptertitle\else\smu@fronthead\fi}
 \newcommand{\smu@landscapeheadtext}{%
@@ -942,28 +943,35 @@
         \rotatebox{90}{%
           \parbox{\smu@landscapeheadwidth}{%
             \centering\headfont\smu@landscapeheadtext\\[-0.35em]%
-            \rule{\linewidth}{0.5pt}}}}}%
-    \put(\LenToUnit{\dimexpr\paperwidth-1.2cm\relax},\LenToUnit{0.5\paperheight}){%
-      \makebox(0,0){\rotatebox{90}{\headfont\thepage}}%
+            \rule{\linewidth}{0.75pt}}}}}%
+    \put(\LenToUnit{\dimexpr\paperwidth-2.1cm\relax},\LenToUnit{0.5\paperheight}){%
+      \makebox(0,0){\rotatebox{90}{\smufooterfont\thepage}}%
     }%
   }%
 }
 \newenvironment{smulandscape}{%
+  \newgeometry{left=2.54cm,right=2.54cm,bottom=3.175cm,top=3.175cm,headheight=0.5cm,headsep=0.5cm,footskip=0.5cm}%
   \begin{landscape}%
+  % Align longtable captions with the narrowest landscape table rule.
+  \setlength{\LTcapwidth}{21.5cm}%
   \pagestyle{smulandscapestyle}%
   \thispagestyle{smulandscapestyle}%
   \AddToShipoutPictureFG{\smu@landscapeoverlay}%
 }{%
   \end{landscape}%
   \ClearShipoutPictureFG%
+  \restoregeometry%
   \pagestyle{smuthesisstyle}%
 }
 
 \let\smu@orig@tableofcontents\tableofcontents
 \renewcommand{\tableofcontents}{%
   \clearpage
+  \restoregeometry
   \smu@setfronthead{\contentsname}%
   \begingroup
+    \let\textchapterfont\toctitlefont
+    \titlespacing{\chapter}{0pt}{0pt}{12pt}%
     \let\ps@plain=\ps@smutocstyle
     \pagestyle{smutocstyle}%
     \smu@orig@tableofcontents
@@ -985,6 +993,7 @@
 
 \renewcommand\frontmatter{ %标题之后，开始中英文摘要，目录
 		\clearpage
+    \newgeometry{left=3.2cm,right=3.2cm,bottom=3.8cm,top=3.8cm,headheight=0.5cm,headsep=0.5cm,footskip=0.5cm}
     \let\ps@plain=\ps@smuthesisstyle
     \pagestyle{smuthesisstyle}
     \pagenumbering{Roman}% 中文摘要使用大写罗马页码
@@ -993,6 +1002,7 @@
 
 \renewcommand\mainmatter{%
   \clearpage
+  \restoregeometry
   \@mainmattertrue
   \pagenumbering{arabic}
   \let\ps@plain=\ps@smuthesisstyle
