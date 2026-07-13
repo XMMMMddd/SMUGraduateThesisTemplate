@@ -39,6 +39,8 @@
 }
 \def \institute#1{\gdef\@institute{#1}}
 \def \supervisor#1{\gdef\@supervisor{#1}}
+\def \enauthor#1{\gdef\@enauthor{#1}}
+\def \ensupervisor#1{\gdef\@ensupervisor{#1}}
 \ifmasterdegree \newcommand{\@degree}{硕士} \else \newcommand{\@degree}{博士} \fi
 \newcommand{\thesissubject}{南方医科大学\@degree{}学位论文}
 \def\@classification{}
@@ -46,6 +48,8 @@
 \def\@UDC{}
 \def\@studentnumber{}
 \def\@englishtitle{}
+\def\@enauthor{}
+\def\@ensupervisor{}
 \def\@grade{}
 \def\@funding{}
 \def\@major{}
@@ -215,7 +219,7 @@
 \newcommand{\absnameen}{\heiti\xiaosihao}               % 英文``Abstract''字样的字体
 \newcommand{\abskeyen}{\bfseries\xiaosihao}   % 英文``KEY WORDS''字样的字体
 \newcommand{\abskeysen}{\songti\xiaosihao\normalfont}        % 英文关键字的字体
-\newcommand{\headfont}{\songti\wuhao\normalfont} 	% 页眉字体
+\newcommand{\headfont}{\normalfont\kaiti\wuhao} 	% 页眉字体
 \newcommand{\toctitlefont}{\heiti\xiaoerhao}            % “目录”字样的字体
 \newcommand{\tocchapterfont}{\normalfont\heiti\fontsize{14pt}{23.4pt}\selectfont} % 目录一级标题：黑体四号，23.4 磅行距
 \newcommand{\tocsectionfont}{\normalfont\songti\fontsize{12pt}{23.4pt}\selectfont}         % 目录二级标题：小四，23.4 磅行距
@@ -841,9 +845,9 @@
     \vspace*{-0.5cm}
     {\bfseries\erhao\parbox{\textwidth}{\centering\@englishtitle}\par}
     \vspace{0.55cm}
-    {\bfseries\sanhao Graduate Student:\quad\@author\par}
+    {\bfseries\sanhao Graduate Student:\quad\@enauthor\par}
     \vspace{0.45cm}
-    {\bfseries\sanhao Supervisor:\quad\@supervisor\par}
+    {\bfseries\sanhao Supervisor:\quad\@ensupervisor\par}
     \vspace{0.75cm}
     {\bfseries\sanhao ABSTRACT\par}
     \vspace{0.9cm}
@@ -938,7 +942,7 @@
         \rotatebox{90}{%
           \parbox{\smu@landscapeheadwidth}{%
             \centering\headfont\smu@landscapeheadtext\\[-0.35em]%
-            \rule{\linewidth}{1.5pt}}}}}%
+            \rule{\linewidth}{0.5pt}}}}}%
     \put(\LenToUnit{\dimexpr\paperwidth-1.2cm\relax},\LenToUnit{0.5\paperheight}){%
       \makebox(0,0){\rotatebox{90}{\headfont\thepage}}%
     }%
