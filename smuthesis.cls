@@ -913,11 +913,10 @@
   \setheadrule{0.75pt}
 }
 
-% 原创性声明和版权使用授权页：不显示页眉，保留底部居中页码。
+% 原创性声明和版权使用授权页：不显示页眉，不显示页码。
 \newpagestyle{smucopyrightstyle}{
   \sethead[][][]{}{}{}%
-  \setfoot[][\smufooterfont{}\thepage][]%
-  {}{\smufooterfont{}\thepage}{}%
+  \setfoot[][][]{}{}{}%
   \setheadrule{0pt}
 }
 
