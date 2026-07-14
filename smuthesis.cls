@@ -158,7 +158,7 @@
 \setCJKfamilyfont{song}{Songti SC}
 \setCJKfamilyfont{hei}{Heiti SC Light}
 \setCJKfamilyfont{kai}[Path=/System/Library/AssetsV2/com_apple_MobileAsset_Font8/6331c5916c361af1b83fb8b8b76ef2eece20c8eb.asset/AssetData/]{Kai.ttf}
-\setCJKfamilyfont{fang}{STFangsong}
+\setCJKfamilyfont{fang}{FangSong_GB2312}
 \setCJKfamilyfont{coverhei}[FakeBold=2.4]{Heiti SC}
 \setCJKfamilyfont{coverkai}[Path=/System/Library/AssetsV2/com_apple_MobileAsset_Font8/6331c5916c361af1b83fb8b8b76ef2eece20c8eb.asset/AssetData/,FakeBold=1.8]{Kai.ttf}
 %---------------------------------------------
@@ -730,56 +730,42 @@
 }
 
 \newcommand{\smu@blankfield}[1]{\makebox[#1]{}}
+\newcommand{\smu@checkbox}{\kern0bp{\fontspec{FangSong_GB2312}\char"25A1}}
 \newcommand{\makecopyrightpage}{%
   \clearpage
-  \thispagestyle{empty}%
+  \thispagestyle{smucopyrightstyle}%
   \begingroup
-    \songti
-    \fontsize{12pt}{23pt}\selectfont
-    \setlength{\parindent}{0pt}%
+    \fangsong
+    \fontsize{11bp}{23.04bp}\selectfont
+    \setlength{\parindent}{24bp}%
     \setlength{\parskip}{0pt}%
-    \vspace*{0.95cm}%
-    \makebox[\textwidth][c]{%
-      \begin{minipage}{15.7cm}
-        \begin{center}
-          {\bfseries\fontsize{18pt}{26pt}\selectfont 南方医科大学学位论文原创性声明}
-        \end{center}
+    \vspace*{0.54cm}%
+    \noindent\begin{minipage}{\textwidth}
+      \raggedright
+      \setlength{\parindent}{24bp}%
+      {\centering\songti\bfseries\fontsize{18bp}{23.04bp}\selectfont
+        \hspace*{1.124bp}南方医科大学学位论文原创性声明\par}
+      \vspace{21.87bp}
 
-        \vspace{0.42cm}
-        \hspace*{2em}本人郑重声明：所呈交的论文是本人在导师的指导下独立进行研究所取得的\\
-        研究成果。除了文中特别加以标注引用的内容外，本论文不包含任何其他个人或\\
-        集体已经发表或撰写的成果作品。对本文的研究做出重要贡献的个人和集体，均\\
-        已在文中以明确方式标明。除与外单位合作项目将予以明确方式规定外，本研究\\
-        已发表与未发表成果的知识产权均归属南方医科大学。
+      本人郑重声明：所呈交的论文是本人在导师的指导下独立进行研究所取得的研究成果。除了文中特别加以标注引用的内容外，本论文不包含任何其他个人或集体已经发表或撰写的成果作品。对本文的研究做出重要贡献的个人和集体，均已在文中以明确方式标明。除与外单位合作项目将予以明确方式规定外，本研究已发表与未发表成果的知识产权均归属南方医科大学。\par
+      本人承诺承担本声明的法律效果。\par
+      \vspace{22.8bp}
+      作者签名：\smu@blankfield{88bp}日期：\smu@blankfield{22bp}年\smu@blankfield{16.5bp}月\smu@blankfield{16.5bp}日\par
 
-        \hspace*{2em}本人承诺承担本声明的法律效果。
+      \vspace{70.05bp}
+      {\centering\songti\bfseries\fontsize{18bp}{23.04bp}\selectfont
+        \hspace*{1.124bp}学位论文版权使用授权书\par}
+      \vspace{21.87bp}
 
-        \vspace{0.40cm}
-        \hspace*{2em}作者签名：\smu@blankfield{3.2cm}日期：\smu@blankfield{1.0cm}年\smu@blankfield{0.55cm}月\smu@blankfield{0.55cm}日
-
-        \vspace{1.26cm}
-        \begin{center}
-          {\bfseries\fontsize{18pt}{26pt}\selectfont 学位论文版权使用授权书}
-        \end{center}
-
-        \vspace{0.43cm}
-        \hspace*{2em}本学位论文作者完全了解学校有关保留、使用学位论文的规定，同意学校保\\
-        留并向国家有关部门或机构送交论文的复印件和电子版，允许论文被查阅和借\\
-        阅。本人授权南方医科大学可以将本学位论文的全部或部分内容编入有关数据库\\
-        进行检索，可以采用影印、缩印或扫描等复制手段保存和汇编本学位论文。
-
-        \vspace{0.25cm}
-        \hspace*{2em}本学位论文属于（请在以下相应方框内打“√”）：
-
-        \hspace*{6em}1、暂不公开$\square$，在\smu@blankfield{1.05cm}年\smu@blankfield{0.55cm}月\smu@blankfield{0.55cm}日后予以公开。
-
-        \hspace*{6em}2、立即公开$\square$。
-
-        \vspace{0.50cm}
-        \hspace*{2em}作者签名：\smu@blankfield{3.2cm}日期：\smu@blankfield{1.0cm}年\smu@blankfield{0.55cm}月\smu@blankfield{0.55cm}日
-
-        \hspace*{2em}导师签名：\smu@blankfield{3.2cm}日期：\smu@blankfield{1.0cm}年\smu@blankfield{0.55cm}月\smu@blankfield{0.55cm}日
-      \end{minipage}}%
+      本学位论文作者完全了解学校有关保留、使用学位论文的规定，同意学校保留并向国家有关部门或机构送交论文的复印件和电子版，允许论文被查阅和借阅。本人授权南方医科大学可以将本学位论文的全部或部分内容编入有关数据库进行检索，可以采用影印、缩印或扫描等复制手段保存和汇编本学位论文。\par
+      \vspace{22.8bp}
+      本学位论文属于（请在以下相应方框内打“√”）：\par
+      \noindent\hspace*{101bp}1、保密\smu@checkbox{}，在\rule[-1.5bp]{16.5bp}{0.4bp}年解密后适用本授权书。\par
+      \noindent\hspace*{99bp}2、不保密\smu@checkbox{}。\par
+      \vspace{23.04bp}
+      作者签名：\smu@blankfield{88bp}日期：\smu@blankfield{22bp}年\smu@blankfield{16.5bp}月\smu@blankfield{16.5bp}日\par
+      导师签名：\smu@blankfield{88bp}日期：\smu@blankfield{22bp}年\smu@blankfield{16.5bp}月\smu@blankfield{16.5bp}日
+    \end{minipage}%
   \endgroup
   \clearpage
 }
@@ -913,6 +899,16 @@
   {}{{\headfont{}\@degree{}学位论文}}{}% 奇数页：学位论文类型
   \setfoot[][\smufooterfont{}\thepage][]% 偶数页页码居中
   {}{\smufooterfont{}\thepage}{}% 奇数页页码居中
+  \headrule
+  \setheadrule{0.75pt}
+}
+
+% 原创性声明页：按学校 Word 模板使用固定页眉和底部居中页码。
+\newpagestyle{smucopyrightstyle}{
+  \sethead[][\headfont{}南方医科大学学位论文原创性声明][]%
+  {}{\headfont{}\@degree{}学位论文}{}%
+  \setfoot[][\smufooterfont{}\thepage][]%
+  {}{\smufooterfont{}\thepage}{}%
   \headrule
   \setheadrule{0.75pt}
 }
