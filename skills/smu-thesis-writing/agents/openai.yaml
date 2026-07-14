@@ -1,0 +1,4 @@
+interface:
+  display_name: "SMU 中文论文写作"
+  short_description: "统一中文论文术语、公式及 Word/LaTeX 版式"
+  default_prompt: "使用 $smu-thesis-writing 审核并规范这篇中文毕业论文的写作、公式和 Word/LaTeX 版式。"

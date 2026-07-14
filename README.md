@@ -8,6 +8,7 @@
 - `smuthesis.cls`：模板类文件，定义封面、标题页、字体、章节标题、页眉页脚、图表标题、横向页面和版权页。
 - `mybib.bib`：参考文献数据库示例。
 - `图片/image.png`：封面使用的“南方医科大学”校名字图。
+- `skills/smu-thesis-writing`：可选的 Codex Skill，用于审核中文论文写作、术语、公式和 Word/LaTeX 版式一致性。
 
 ## 主要特性
 
@@ -153,6 +154,37 @@
 ```
 
 该命令生成“南方医科大学学位论文原创性声明”和“学位论文版权使用授权书”。
+
+## 附带的 Codex Skill
+
+仓库附带 `smu-thesis-writing` Skill，供使用 Codex 编写或审核论文时选用。它不是 LaTeX 编译依赖，不使用 Codex 时可以忽略。该 Skill 主要用于：
+
+- 统一中文论文中的术语、缩写、统计学用语和数学符号格式。
+- 核对公式、算法、正文描述与实现代码是否对应。
+- 在项目提供 `写作规范.md` 和 `术语表.md` 时，按其中的本地规则审核全文。
+- 对照 Word/DOCX 模板检查字体、页边距、页眉页脚、横向页面、原创性声明和正文换行。
+- 执行 `xelatex -> biber -> xelatex -> xelatex` 并检查最终日志。
+
+安装到个人 Codex Skill 目录：
+
+```bash
+mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
+cp -R skills/smu-thesis-writing "${CODEX_HOME:-$HOME/.codex}/skills/"
+```
+
+安装后可以在 Codex 中直接调用：
+
+```text
+使用 $smu-thesis-writing 审核并规范这篇中文毕业论文。
+```
+
+其中的机械审查脚本也可以独立运行：
+
+```bash
+bash skills/smu-thesis-writing/scripts/audit-thesis.sh 毕业论文_smuthesis.tex
+```
+
+脚本输出的是待人工复核的候选项，并不表示每一处匹配都是错误。
 
 ## 字体说明
 
