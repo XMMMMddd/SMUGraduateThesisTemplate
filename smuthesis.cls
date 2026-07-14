@@ -118,10 +118,10 @@
 
 %% 设置页面布局
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\RequirePackage[left=3.175cm,right=3.175cm,bottom=2.54cm,top=2.54cm,%正文页边距
+\RequirePackage[left=3.2cm,right=3.2cm,bottom=3.8cm,top=3.8cm,%正文页边距
  headheight=0.5cm,%页眉高度
- headsep=0.5cm,%页眉到正文的距离
- footskip=0.5cm %正文底端到页码基线的距离
+ headsep=0.3cm,%使页眉顶端距纸张顶端 3.0 cm
+ footskip=0.8cm %使页脚基线距纸张底端 3.0 cm
 ]{geometry}
 
 %% 字体设置
@@ -224,25 +224,25 @@
 
 % My fonts for Scut thesis字体字号设置，由于部分内容的字体使用默认设置，因此部分字体用不到。
 \renewcommand{\normalsize}{\normalfont\songti\fontsize{12pt}{23.4pt}\selectfont} % 正文小四号宋体，23.4 磅行距
-\newcommand{\absnamecn}{\heiti\xiaoerhao}         % 中文“摘要”字样的字体
-\newcommand{\abskeycn}{\heiti\xiaosihao}       % 中文摘要“关键字”字样的字体
-\newcommand{\abskeyscn}{\songti\xiaosihao\normalfont} % 中文摘要关键字的字体
-\newcommand{\absnameen}{\heiti\xiaosihao}               % 英文``Abstract''字样的字体
+\newcommand{\absnamecn}{\songti\xiaosanhao}         % 中文“摘要”字样的字体
+\newcommand{\abskeycn}{\songti\bfseries\wuhao}       % 中文摘要“关键词”字样的字体
+\newcommand{\abskeyscn}{\songti\wuhao\normalfont} % 中文摘要关键词的字体
+\newcommand{\absnameen}{\bfseries\sihao}               % 英文``ABSTRACT''字样的字体
 \newcommand{\abskeyen}{\bfseries\xiaosihao}   % 英文``KEY WORDS''字样的字体
-\newcommand{\abskeysen}{\songti\xiaosihao\normalfont}        % 英文关键字的字体
+\newcommand{\abskeysen}{\normalfont\xiaosihao}        % 英文关键词的字体
 \newcommand{\headfont}{\normalfont\kaiti\wuhao} 	% 页眉字体：楷体五号
 \newcommand{\smufooterfont}{\normalfont\xiaowuhao} % 页码字体：Times New Roman 小五
-\newcommand{\toctitlefont}{\centering\normalfont\songti\bfseries\fontsize{15pt}{22.5pt}\selectfont} % “目录”字样：宋体加粗 15 磅
+\newcommand{\toctitlefont}{\centering\normalfont\songti\fontsize{15pt}{22.5pt}\selectfont} % “目录”字样：小三号宋体
 \newcommand{\tocchapterfont}{\normalfont\heiti\fontsize{14pt}{23.4pt}\selectfont} % 目录一级标题：黑体四号，23.4 磅行距
 \newcommand{\tocsectionfont}{\normalfont\songti\fontsize{12pt}{23.4pt}\selectfont}         % 目录二级标题：小四，23.4 磅行距
 \newcommand{\tocsubsectionfont}{\normalfont\songti\fontsize{12pt}{23.4pt}\selectfont}      % 目录三级标题：小四，23.4 磅行距
 \newcommand{\tocsubsubsectionfont}{\normalfont\songti\fontsize{12pt}{23.4pt}\selectfont}      % 目录四级标题：小四，23.4 磅行距
-\newcommand{\textchapterfont}{\centering\normalfont\songti\bfseries\fontsize{16pt}{24pt}\selectfont} % 正文一级标题：加粗宋体 16 磅，1.5 倍行距
+\newcommand{\textchapterfont}{\centering\normalfont\songti\fontsize{16pt}{24pt}\selectfont} % 正文一级标题：三号宋体
 \newcommand{\textsectionfont}{\normalfont\songti\bfseries\fontsize{14pt}{21pt}\selectfont}            % 正文二级标题：加粗宋体四号，1.5 倍行距
 \newcommand{\textsubsectionfont}{\normalfont\songti\bfseries\fontsize{12pt}{18pt}\selectfont}     % 正文三级标题：加粗宋体小四，1.5 倍行距
 \newcommand{\textsubsubsectionfont}{\heiti\xiaosihao}     % 正文上X.Y.Z.K小节的字体
 \newcommand{\footnotefont}{\songti\xiaowuhao\normalfont}     % 脚注字体
-\newcommand{\ftcaptionfont}{\songti\fontsize{10pt}{16pt}\selectfont\normalfont}         % 图表标题：10 磅宋体，16 磅行距
+\newcommand{\ftcaptionfont}{\songti\fontsize{10.5pt}{16pt}\selectfont\normalfont}         % 图表标题：五号宋体
 
 \newcommand{\reftitlefont}{\heiti\xiaoerhao}      % “参考文献”字样的字体
 \newcommand{\refbodyfont}{\songti\wuhao\normalfont}          % 参考文献字体
@@ -519,15 +519,15 @@
 \renewcommand{\contentsname}{目\texorpdfstring{\quad}{}录}	%中文目录
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \titlecontents{chapter}[0ex]{\tocchapterfont}{%
-    第\zhnumber{\thecontentslabel}章\quad{}}{}{%
+    第\thecontentslabel 章\quad{}}{}{%
     \hspace{.5em}\titlerule*[5pt]{$\cdot$}{\tocchapterfont\contentspage}}%
-\titlecontents{section}[1em]{\tocsectionfont}{%
+\titlecontents{section}[2em]{\tocsectionfont}{%
     \thecontentslabel\quad{}}{}{%
     \hspace{.5em}\titlerule*[5pt]{$\cdot$}{\tocsectionfont\contentspage}}%
-\titlecontents{subsection}[2em]{\tocsubsectionfont}{%
+\titlecontents{subsection}[4em]{\tocsubsectionfont}{%
     \thecontentslabel\quad{}}{}{%
     \hspace{.5em}\titlerule*[5pt]{$\cdot$}{\tocsubsectionfont\contentspage}}%
-\titlecontents{subsubsection}[3em]{\tocsubsubsectionfont}{%
+\titlecontents{subsubsection}[6em]{\tocsubsubsectionfont}{%
     \thecontentslabel\quad{}}{}{%
     \hspace{.5em}\titlerule*[5pt]{$\cdot$}{\tocsubsubsectionfont\contentspage}}%
 
@@ -538,9 +538,9 @@
 % Text style
 %%%%%%%%%%%%%%%%%%%%%%%%
 \RequirePackage[pagestyles, rm]{titlesec}%调用titlesec涵盖fancyhdr的功能
-\renewcommand{\chaptername}{第\zhnumber{\thechapter}章}
-\titleformat{\chapter}[block]{\textchapterfont}{第\zhnumber{\thechapter}章}{1em}{}
-\titleformat{\section}[hang]{\textsectionfont}{\thesection}{1em}{}
+\renewcommand{\chaptername}{第\thechapter 章}
+\titleformat{\chapter}[block]{\textchapterfont}{第\thechapter 章}{2em}{}
+\titleformat{\section}[hang]{\textsectionfont}{\thesection}{2em}{}
 \titleformat{\subsection}[hang]{\textsubsectionfont}{\thesubsection}{1em}{}
 \titleformat{\subsubsection}[hang]{\textsubsubsectionfont}{\thesubsubsection}{1ex}{}% 小四黑体居左
 
@@ -642,11 +642,11 @@
 \newcommand{\smu@titleitem}[2]{%
   \makebox[\linewidth][s]{#1} & #2\\[0.55em]}
 \newcommand{\smu@titleabsitem}[3]{%
-  \put(38,#1){\makebox[38mm][s]{#2}}%
+  \put(33,#1){\makebox[35mm][s]{#2}}%
   \put(81,#1){\makebox[62mm][l]{#3}}}
 \newcommand{\smu@titlefundingitem}[3]{%
-  \put(0,#1){\makebox[29mm][l]{#2}}%
-  \put(29,#1){\makebox[117mm][l]{#3}}}
+  \put(0,#1){\makebox[25mm][l]{#2}}%
+  \put(25,#1){\makebox[121mm][l]{#3}}}
 
 \renewcommand{\maketitle}{% called outside
   \ifpdfcover
@@ -727,12 +727,12 @@
           \smu@titleabsitem{77}{培养层次}{\@degreelevel}
           \smu@titleabsitem{68}{所在学院}{\@institute}
 
-          \smu@titleabsitem{54}{答辩委员会主席}{\@defensechair}
-          \put(38,43){\makebox[38mm][s]{答辩委员会成员}}
-          \put(81,43){\renewcommand{\arraystretch}{1.2}\begin{tabular}[t]{@{}l@{}}\@defensemembers\end{tabular}}
+          \smu@titleabsitem{50}{答辩委员会主席}{\@defensechair}
+          \put(33,41){\makebox[35mm][s]{答辩委员会成员}}
+          \put(81,41){\renewcommand{\arraystretch}{1.63}\begin{tabular}[t]{@{}l@{}}\@defensemembers\end{tabular}}
         }
 
-        \put(0,6){\makebox(146,0)[c]{\kaiti\sanhao \@titlepagedate\quad \@location}}
+        \put(0,4){\makebox(146,0)[c]{\kaiti\sanhao \@titlepagedate\quad \@location}}
       \end{picture}
       \clearpage
     \endgroup
@@ -747,25 +747,24 @@
   \thispagestyle{smucopyrightstyle}%
   \begingroup
     \fangsong
-    \fontsize{11bp}{23.04bp}\selectfont
+    \fontsize{12bp}{23bp}\selectfont
     \setlength{\parindent}{24bp}%
     \setlength{\parskip}{0pt}%
     \vspace*{0.506cm}%
     \noindent\begin{minipage}{\textwidth}
-      \raggedright
       \setlength{\parindent}{24bp}%
-      {\centering\dengxian\bfseries\fontsize{18bp}{23.04bp}\selectfont
-        \hspace*{1.124bp}南方医科大学学位论文原创性声明\par}
+      {\centering\songti\bfseries\fontsize{18bp}{26bp}\selectfont
+        南方医科大学学位论文原创性声明\par}
       \vspace{22.838bp}
 
-      本人郑重声明：所呈交的论文是本人在导师的指导下独立进行研究所取得的研究成果。除了文中特别加以标注引用的内容外，本论文不包含任何其他个人或集体已经发表或撰写的成果作品。对本文的研究做出重要贡献的个人和集体，均已在文中以明确方式标明。除与外单位合作项目将予以明确方式规定外，本研究已发表与未发表成果的知识产权均归属南方医科大学。\par
+      本人郑重声明：所呈交的论文是本人在导师的指导下独立进行研究所取得的研究成果。除了文中特别加以标注引用的内容外，本论文不包含任何其他个人或集体已经发表或撰写的成果作品。对本文的研究作出重要贡献的个人和集体，均已在文中以明确方式标明。除与外单位合作项目将予以明确方式规定外，本研究已发表与未发表成果的知识产权均归属南方医科大学。\par
       本人承诺承担本声明的法律效果。\par
       \vspace{22.8bp}
       作者签名：\smu@blankfield{88bp}日期：\smu@blankfield{22bp}年\smu@blankfield{16.5bp}月\smu@blankfield{16.5bp}日\par
 
       \vspace{69.082bp}
-      {\centering\dengxian\bfseries\fontsize{18bp}{23.04bp}\selectfont
-        \hspace*{1.124bp}学位论文版权使用授权书\par}
+      {\centering\songti\bfseries\fontsize{18bp}{26bp}\selectfont
+        学位论文版权使用授权书\par}
       \vspace{22.838bp}
 
       本学位论文作者完全了解学校有关保留、使用学位论文的规定，同意学校保留并向国家有关部门或机构送交论文的复印件和电子版，允许论文被查阅和借阅。本人授权南方医科大学可以将本学位论文的全部或部分内容编入有关数据库进行检索，可以采用影印、缩印或扫描等复制手段保存和汇编本学位论文。\par
@@ -773,7 +772,7 @@
       本学位论文属于（请在以下相应方框内打“√”）：\par
       \noindent\hspace*{101bp}1、保密\smu@checkbox{}，在\rule[-1.5bp]{16.5bp}{0.4bp}年解密后适用本授权书。\par
       \noindent\hspace*{99bp}2、不保密\smu@checkbox{}。\par
-      \vspace{23.04bp}
+      \vspace{23bp}
       作者签名：\smu@blankfield{88bp}日期：\smu@blankfield{22bp}年\smu@blankfield{16.5bp}月\smu@blankfield{16.5bp}日\par
       导师签名：\smu@blankfield{88bp}日期：\smu@blankfield{22bp}年\smu@blankfield{16.5bp}月\smu@blankfield{16.5bp}日
     \end{minipage}%
@@ -800,12 +799,12 @@
   \par
  \vspace{1em}
   \newcommand{\@keywords}{#1}
-  {\noindent\abskeycn 关键词：} {\abskeyscn \@keywords} % \noindent去掉缩进
+  {\noindent\abskeycn 关键词：} {\abskeyscn \@keywords}
 }
 \newcommand{\keywordsEN}[1]{
   \par
  \vspace{1em}
-  {\noindent\abskeyen Keywords:} {\abskeysen #1} % \noindent去掉缩进
+  {\noindent\abskeyen KEYWORDS:} {\abskeysen #1}
 }
 \newcommand{\makeabstractCNhead}{%
   \clearpage
@@ -817,15 +816,15 @@
     \linespacing{1}%
     \centering
     \vspace*{-0.5cm}
-    {\coverheiti\bfseries\erhao \smu@covercnone\par}
+    {\coverheiti\bfseries\fontsize{22bp}{26bp}\selectfont \smu@covercnone\par}
     \vspace{0.15cm}
-    {\coverheiti\bfseries\erhao \smu@covercntwo\par}
+    {\coverheiti\bfseries\fontsize{22bp}{26bp}\selectfont \smu@covercntwo\par}
     \vspace{0.55cm}
-    {\coverheiti\bfseries\sanhao \@degree{}研究生：\quad\@author\par}
+    {\songti\bfseries\sanhao \@degree{}研究生：\quad\@author\par}
     \vspace{0.45cm}
-    {\coverheiti\bfseries\sanhao 指导教师：\quad\@supervisor\par}
+    {\songti\bfseries\sanhao 指导教师：\quad\@supervisor\par}
     \vspace{0.75cm}
-    {\coverheiti\bfseries\sanhao 摘\quad 要\par}
+    {\songti\xiaosanhao 摘\quad 要\par}
     \vspace{0.9cm}
   \endgroup
   \noindent
@@ -836,18 +835,18 @@
   \smu@setfronthead{ABSTRACT}%
   \thispagestyle{smuthesisstyle}%
   \ifx\phantomsection\@undefined\else\phantomsection\fi
-  \addcontentsline{toc}{chapter}{ABSTRACT}%
+  \addcontentsline{toc}{chapter}{\texorpdfstring{\protect\bfseries ABSTRACT}{ABSTRACT}}%
   \begingroup
     \linespacing{1}%
     \centering
-    \vspace*{-0.5cm}
-    {\bfseries\erhao\parbox{\textwidth}{\centering\@englishtitle}\par}
+    \vspace*{-0.26cm}
+    {\bfseries\fontsize{22bp}{26bp}\selectfont\parbox{\textwidth}{\centering\@englishtitle}\par}
     \vspace{0.55cm}
-    {\bfseries\sanhao Graduate Student:\quad\@enauthor\par}
+    {\normalfont\sanhao Name:\quad\@enauthor\par}
     \vspace{0.45cm}
-    {\bfseries\sanhao Supervisor:\quad\@ensupervisor\par}
+    {\normalfont\sanhao Supervisor:\quad\@ensupervisor\par}
     \vspace{0.75cm}
-    {\bfseries\sanhao ABSTRACT\par}
+    {\bfseries\sihao ABSTRACT\par}
     \vspace{0.9cm}
   \endgroup
   \noindent
@@ -914,20 +913,19 @@
   \setheadrule{0.75pt}
 }
 
-% 原创性声明页：按学校 Word 模板使用固定页眉和底部居中页码。
+% 原创性声明和版权使用授权页：不显示页眉，保留底部居中页码。
 \newpagestyle{smucopyrightstyle}{
-  \sethead[][\headfont{}南方医科大学学位论文原创性声明][]%
-  {}{\headfont{}\@degree{}学位论文}{}%
+  \sethead[][][]{}{}{}%
   \setfoot[][\smufooterfont{}\thepage][]%
   {}{\smufooterfont{}\thepage}{}%
-  \headrule
-  \setheadrule{0.75pt}
+  \setheadrule{0pt}
 }
 
 \newpagestyle{smutocstyle}{
   \sethead[][{\headfont{}\smu@fronthead}][]% 偶数页：目录
   {}{{\headfont{}\@degree{}学位论文}}{}% 奇数页：学位论文类型
-  \setfoot[][][]{}{}{}% 目录页底部不显示页码
+  \setfoot[][\smufooterfont{}\thepage][]% 偶数页页码居中
+  {}{\smufooterfont{}\thepage}{}% 奇数页页码居中
   \headrule
   \setheadrule{0.75pt}
 }
@@ -938,26 +936,27 @@
   \setheadrule{0pt}%
 }
 \newlength{\smu@landscapeheadwidth}
-\setlength{\smu@landscapeheadwidth}{\dimexpr\paperheight-6.35cm\relax}
+\setlength{\smu@landscapeheadwidth}{\dimexpr\paperheight-6.4cm\relax}
 \newcommand{\smu@landscapeevenheadtext}{%
   \if@mainmatter\chaptertitlename\quad\chaptertitle\else\smu@fronthead\fi}
 \newcommand{\smu@landscapeheadtext}{%
   \ifodd\c@page\@degree{}学位论文\else\smu@landscapeevenheadtext\fi}
 \newcommand{\smu@landscapeoverlay}{%
   \AtPageLowerLeft{%
-    \put(\LenToUnit{1.7cm},\LenToUnit{0.5\paperheight}){%
+    \put(\LenToUnit{3cm},\LenToUnit{0.5\paperheight}){%
       \makebox(0,0){%
         \rotatebox{90}{%
           \parbox{\smu@landscapeheadwidth}{%
             \centering\headfont\smu@landscapeheadtext\\[-0.35em]%
             \rule{\linewidth}{0.75pt}}}}}%
-    \put(\LenToUnit{\dimexpr\paperwidth-2.1cm\relax},\LenToUnit{0.5\paperheight}){%
+    \put(\LenToUnit{\dimexpr\paperwidth-3cm\relax},\LenToUnit{0.5\paperheight}){%
       \makebox(0,0){\rotatebox{90}{\smufooterfont\thepage}}%
     }%
   }%
 }
 \newenvironment{smulandscape}{%
-  \newgeometry{left=2.54cm,right=2.54cm,bottom=3.175cm,top=3.175cm,headheight=0.5cm,headsep=0.5cm,footskip=0.5cm}%
+  % lscape rotates the typeset area, so portrait left/right become landscape top/bottom.
+  \newgeometry{left=3.8cm,right=3.8cm,bottom=3.2cm,top=3.2cm,headheight=0.5cm,headsep=0.3cm,footskip=0.8cm}%
   \begin{landscape}%
   % Align longtable captions with the narrowest landscape table rule.
   \setlength{\LTcapwidth}{21.5cm}%
@@ -1000,7 +999,7 @@
 
 \renewcommand\frontmatter{ %标题之后，开始中英文摘要，目录
 		\clearpage
-    \newgeometry{left=3.2cm,right=3.2cm,bottom=3.8cm,top=3.8cm,headheight=0.5cm,headsep=0.5cm,footskip=0.5cm}
+    \newgeometry{left=3.2cm,right=3.2cm,bottom=3.8cm,top=3.8cm,headheight=0.5cm,headsep=0.3cm,footskip=0.8cm}
     \let\ps@plain=\ps@smuthesisstyle
     \pagestyle{smuthesisstyle}
     \pagenumbering{Roman}% 中文摘要使用大写罗马页码
