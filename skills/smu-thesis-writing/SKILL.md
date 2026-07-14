@@ -27,6 +27,15 @@ Apply the thesis's local rules before general academic-writing preferences. Pres
 - Distinguish a confounder (`混杂因素`) from the resulting bias (`混杂偏倚`).
 - Write only Chinese for low-frequency or explicitly unretained terms, including 水平多效性、群体分层、遗传养育效应、遗传变异、等位基因、基因芯片、基因型插补、遗传度、多基因风险评分、选型婚配、王朝效应、核心家系、同胞对、父源、母源、家系均值、同胞差分 and 汇总统计量.
 
+## Paragraph Structure
+
+- Divide paragraphs by semantic center, not by connective words. Keep background, explanation, contrast, consequence, qualification, and summary in the same paragraph when they discuss the same object or claim.
+- Do not start a new paragraph solely because a sentence begins with `然而`, `因此`, `此外`, `相比之下`, `与此同时`, `进一步`, `综上`, `随后`, `直到`, `后来`, or an English equivalent.
+- Start a new paragraph when the research object, central claim, method category, trait pair or analysis direction, numbered algorithm step, theorem or proof stage, numbered case, or numbered limitation changes.
+- Keep an introducing clause, its displayed formula, and the following symbol explanation in one paragraph when they form one argument. A display environment does not itself require a paragraph break.
+- In structured abstracts, normally keep each labeled field such as background, objective, methods, results, or conclusion as one paragraph.
+- Do not merge mechanically. After revising, scan paragraph starts and confirm that each remaining break marks a genuine semantic change rather than a transition phrase.
+
 ## Abbreviations
 
 - Retain an English abbreviation only when the term occurs at least three times or is explicitly retained by the thesis rules.
@@ -36,6 +45,7 @@ Apply the thesis's local rules before general academic-writing preferences. Pres
 - Keep `SNP` and `IV` unchanged in Chinese prose regardless of number. Never write `SNPs` or `IVs` except inside immutable filenames, citation metadata, or English text.
 - Retained abbreviations include MR, GWAS, SNP, FGWAS, FGWAS-MR, MRcML, MR-Lasso, MR-Egger, BMI, DNA, DGE, IGE, IV, IVW, WGS, WES, UKB, LD, SE, InSIDE, MA, DP, GoF, BIC', NTC, and MRMix.
 - Define SE as `标准误（standard error，SE）` at first occurrence in each Chinese domain; use `SE` afterwards in prose, formulas, tables, and symbol lists.
+- Keep parallel statistical expressions at the same naming level. After SE is defined, compare `经验 SE` with `理论 SE`; write `自助抽样得到的经验 SE` when the estimation source must be explicit, and avoid mixing `自助抽样标准差` with `理论 SE` in the same sentence.
 
 ## Mathematical Notation
 

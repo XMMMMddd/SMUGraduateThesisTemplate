@@ -32,7 +32,7 @@ Use this workflow when a LaTeX page must reproduce a designated Word/DOCX thesis
 - Use the Word source's exact originality declaration and copyright authorization text.
 - Use `1、保密□，在___年解密后适用本授权书。` and `2、不保密□。` when that wording appears in the designated template; do not substitute `暂不公开/立即公开`.
 - Use 仿宋 GB2312 for body text, 11 Word points, fixed 23-point line spacing, and a 24-point first-line indent when confirmed by the source XML.
-- Use 宋体 bold 18 Word points for the two titles when confirmed by the source XML.
+- Use 等线（中文正文）bold 18 Word points for the two titles. In exported PDFs, verify that Word and LaTeX embed `DengXian-Bold` rather than a Songti/SimSun substitute.
 - Keep the user's degree type in the odd header. In this thesis, odd pages may show `硕士学位论文`; the even header may show `南方医科大学学位论文原创性声明`.
 - Render literal Chinese quotation marks around `√` and inspect the checkbox and underline visually.
 

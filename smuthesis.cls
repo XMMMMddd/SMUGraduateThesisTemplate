@@ -159,6 +159,16 @@
 \setCJKfamilyfont{hei}{Heiti SC Light}
 \setCJKfamilyfont{kai}[Path=/System/Library/AssetsV2/com_apple_MobileAsset_Font8/6331c5916c361af1b83fb8b8b76ef2eece20c8eb.asset/AssetData/]{Kai.ttf}
 \setCJKfamilyfont{fang}{FangSong_GB2312}
+\IfFileExists{/Applications/Microsoft Word.app/Contents/Resources/DFonts/Deng.ttf}{%
+  \setCJKfamilyfont{deng}[Path={/Applications/Microsoft Word.app/Contents/Resources/DFonts/},BoldFont=Dengb.ttf]{Deng.ttf}%
+}{%
+  \IfFontExistsTF{DengXian}{%
+    \setCJKfamilyfont{deng}{DengXian}%
+  }{%
+    \PackageWarning{smuthesis}{DengXian not found; falling back to Heiti SC Light}%
+    \setCJKfamilyfont{deng}{Heiti SC Light}%
+  }%
+}
 \setCJKfamilyfont{coverhei}[FakeBold=2.4]{Heiti SC}
 \setCJKfamilyfont{coverkai}[Path=/System/Library/AssetsV2/com_apple_MobileAsset_Font8/6331c5916c361af1b83fb8b8b76ef2eece20c8eb.asset/AssetData/,FakeBold=1.8]{Kai.ttf}
 %---------------------------------------------
@@ -167,6 +177,7 @@
 \newcommand{\heiti}{\CJKfamily{hei}}
 \newcommand{\kaiti}{\CJKfamily{kai}}
 \newcommand{\fangsong}{\CJKfamily{fang}}
+\newcommand{\dengxian}{\CJKfamily{deng}}
 \newcommand{\coverheiti}{\CJKfamily{coverhei}}
 \newcommand{\coverkaiti}{\CJKfamily{coverkai}}
 
@@ -739,23 +750,23 @@
     \fontsize{11bp}{23.04bp}\selectfont
     \setlength{\parindent}{24bp}%
     \setlength{\parskip}{0pt}%
-    \vspace*{0.54cm}%
+    \vspace*{0.506cm}%
     \noindent\begin{minipage}{\textwidth}
       \raggedright
       \setlength{\parindent}{24bp}%
-      {\centering\songti\bfseries\fontsize{18bp}{23.04bp}\selectfont
+      {\centering\dengxian\bfseries\fontsize{18bp}{23.04bp}\selectfont
         \hspace*{1.124bp}南方医科大学学位论文原创性声明\par}
-      \vspace{21.87bp}
+      \vspace{22.838bp}
 
       本人郑重声明：所呈交的论文是本人在导师的指导下独立进行研究所取得的研究成果。除了文中特别加以标注引用的内容外，本论文不包含任何其他个人或集体已经发表或撰写的成果作品。对本文的研究做出重要贡献的个人和集体，均已在文中以明确方式标明。除与外单位合作项目将予以明确方式规定外，本研究已发表与未发表成果的知识产权均归属南方医科大学。\par
       本人承诺承担本声明的法律效果。\par
       \vspace{22.8bp}
       作者签名：\smu@blankfield{88bp}日期：\smu@blankfield{22bp}年\smu@blankfield{16.5bp}月\smu@blankfield{16.5bp}日\par
 
-      \vspace{70.05bp}
-      {\centering\songti\bfseries\fontsize{18bp}{23.04bp}\selectfont
+      \vspace{69.082bp}
+      {\centering\dengxian\bfseries\fontsize{18bp}{23.04bp}\selectfont
         \hspace*{1.124bp}学位论文版权使用授权书\par}
-      \vspace{21.87bp}
+      \vspace{22.838bp}
 
       本学位论文作者完全了解学校有关保留、使用学位论文的规定，同意学校保留并向国家有关部门或机构送交论文的复印件和电子版，允许论文被查阅和借阅。本人授权南方医科大学可以将本学位论文的全部或部分内容编入有关数据库进行检索，可以采用影印、缩印或扫描等复制手段保存和汇编本学位论文。\par
       \vspace{22.8bp}

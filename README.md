@@ -194,5 +194,8 @@ bash skills/smu-thesis-writing/scripts/audit-thesis.sh 毕业论文_smuthesis.te
 - 黑体：`Heiti SC Light`
 - 楷体：`STKaiti`
 - 仿宋：`STFangsong`
+- 原创性声明页标题：等线粗体（`DengXian-Bold`）
 
 Windows 或 Linux 用户需要根据本机字体修改 `smuthesis.cls` 中的 `\setCJKmainfont`、`\setCJKsansfont`、`\setCJKmonofont` 和相关字体族配置。
+
+在 macOS 上，模板会优先读取 Microsoft Word 自带的 `Deng.ttf` 和 `Dengb.ttf`；在 Windows 上则使用系统安装的 `DengXian`。未找到等线字体时会回退到 `Heiti SC Light` 并给出编译警告。
