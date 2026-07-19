@@ -518,8 +518,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \renewcommand{\contentsname}{目\texorpdfstring{\quad}{}录}	%中文目录
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\DeclareRobustCommand{\smuzhdigit}[1]{%
+  \ifcase#1\relax 零\or 一\or 二\or 三\or 四\or 五\or 六\or 七\or 八\or 九\or
+  十\or 十一\or 十二\or 十三\or 十四\or 十五\or 十六\or 十七\or 十八\or 十九\or 二十\fi}
 \titlecontents{chapter}[0ex]{\tocchapterfont}{%
-    第\thecontentslabel 章\quad{}}{}{%
+    第\smuzhdigit{\thecontentslabel} 章\quad{}}{}{%
     \hspace{.5em}\titlerule*[5pt]{$\cdot$}{\tocchapterfont\contentspage}}%
 \titlecontents{section}[2em]{\tocsectionfont}{%
     \thecontentslabel\quad{}}{}{%
@@ -538,8 +541,8 @@
 % Text style
 %%%%%%%%%%%%%%%%%%%%%%%%
 \RequirePackage[pagestyles, rm]{titlesec}%调用titlesec涵盖fancyhdr的功能
-\renewcommand{\chaptername}{第\thechapter 章}
-\titleformat{\chapter}[block]{\textchapterfont}{第\thechapter 章}{2em}{}
+\renewcommand{\chaptername}{第\smuzhdigit{\value{chapter}} 章}
+\titleformat{\chapter}[block]{\textchapterfont}{第\smuzhdigit{\value{chapter}} 章}{2em}{}
 \titleformat{\section}[hang]{\textsectionfont}{\thesection}{2em}{}
 \titleformat{\subsection}[hang]{\textsubsectionfont}{\thesubsection}{1em}{}
 \titleformat{\subsubsection}[hang]{\textsubsubsectionfont}{\thesubsubsection}{1ex}{}% 小四黑体居左
