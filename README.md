@@ -15,7 +15,7 @@
 - 支持硕士/博士论文：`\documentclass[master]{smuthesis}` 为硕士，不加 `master` 默认为博士。
 - 支持草稿模式：`\documentclass[master,draft]{smuthesis}`。
 - 封面和题名页支持中文 1-2 行、英文 1-3 行手动分行。
-- 正文小四号宋体、1.5 倍行距；一、二、三级标题为加粗宋体。
+- 正文小四号宋体、1.5 倍行距；一至四级标题为加粗宋体，章标题与目录一级条目加粗。
 - `biblatex + biber` 数字顺序制引用，正文引用显示为上标方括号，如 `[1]`。
 - 图表支持中英文双语 caption，英文行自动显示 `Figure 1-1` / `Table 1-1`。
 - 横向页面使用 `smulandscape` 环境，页眉和页码会随页面横向旋转。
@@ -37,7 +37,9 @@
    \titleetitle{Title page English line one}{Title page English line two}{Title page English line three}
    \schoolnameimage{图片/image.png}
    \author{作者姓名}
+   \enauthor{Author Name}
    \supervisor{导师姓名\quad 教授}
+   \ensupervisor{Prof. Supervisor Name}
    \institute{学院名称}
    \grade{2026级}
    \major{专业名称}
@@ -77,7 +79,8 @@
   gbnamefmt=lowercase,
   doi=false,
   url=false,
-  isbn=false
+  isbn=false,
+  eprint=false
 ]{biblatex}
 \addbibresource{mybib.bib}
 ```

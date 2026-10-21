@@ -234,13 +234,14 @@
 \newcommand{\smufooterfont}{\normalfont\xiaowuhao} % 页码字体：Times New Roman 小五
 \newcommand{\toctitlefont}{\centering\normalfont\songti\fontsize{15pt}{22.5pt}\selectfont} % “目录”字样：小三号宋体
 \newcommand{\tocchapterfont}{\normalfont\heiti\fontsize{14pt}{23.4pt}\selectfont} % 目录一级标题：黑体四号，23.4 磅行距
+\newcommand{\tocchapterbold}{\tocchapterfont\bfseries} % 目录一级标题加粗：字族字号不变，仅加粗笔画
 \newcommand{\tocsectionfont}{\normalfont\songti\fontsize{12pt}{23.4pt}\selectfont}         % 目录二级标题：小四，23.4 磅行距
 \newcommand{\tocsubsectionfont}{\normalfont\songti\fontsize{12pt}{23.4pt}\selectfont}      % 目录三级标题：小四，23.4 磅行距
 \newcommand{\tocsubsubsectionfont}{\normalfont\songti\fontsize{12pt}{23.4pt}\selectfont}      % 目录四级标题：小四，23.4 磅行距
-\newcommand{\textchapterfont}{\centering\normalfont\songti\fontsize{16pt}{24pt}\selectfont} % 正文一级标题：三号宋体
+\newcommand{\textchapterfont}{\centering\normalfont\songti\bfseries\fontsize{16pt}{24pt}\selectfont} % 正文一级标题：三号加粗宋体
 \newcommand{\textsectionfont}{\normalfont\songti\bfseries\fontsize{14pt}{21pt}\selectfont}            % 正文二级标题：加粗宋体四号，1.5 倍行距
 \newcommand{\textsubsectionfont}{\normalfont\songti\bfseries\fontsize{12pt}{18pt}\selectfont}     % 正文三级标题：加粗宋体小四，1.5 倍行距
-\newcommand{\textsubsubsectionfont}{\heiti\xiaosihao}     % 正文上X.Y.Z.K小节的字体
+\newcommand{\textsubsubsectionfont}{\normalfont\songti\bfseries\fontsize{12pt}{18pt}\selectfont}     % 正文四级标题：加粗宋体小四，1.5 倍行距
 \newcommand{\footnotefont}{\songti\xiaowuhao\normalfont}     % 脚注字体
 \newcommand{\ftcaptionfont}{\songti\fontsize{10.5pt}{16pt}\selectfont\normalfont}         % 图表标题：五号宋体
 
@@ -352,7 +353,7 @@
 \RequirePackage{longtable} % 长表格支持，截断跨页
 %\RequirePackage{ctable, threeparttable} % 支持表格注释,复杂表格，一般用不上
 %\RequirePackage{tabularx}
-\captionsetup[table]{position=top}
+\captionsetup[table]{position=top,justification=centering,singlelinecheck=false}
 %定义双标题命令
 \newcommand{\TableBicaption}[2]{
   \smubicaption{#1}{#2}
@@ -505,7 +506,7 @@
     \defbibheading{smubibliography}[\bibname]{%
       \clearpage
       \smu@setfronthead{#1}%
-      \chapter*{#1}%
+      \chapter*{\textbf{#1}}%
       \addcontentsline{toc}{chapter}{#1}%
     }%
   }{}%
@@ -521,9 +522,9 @@
 \DeclareRobustCommand{\smuzhdigit}[1]{%
   \ifcase#1\relax 零\or 一\or 二\or 三\or 四\or 五\or 六\or 七\or 八\or 九\or
   十\or 十一\or 十二\or 十三\or 十四\or 十五\or 十六\or 十七\or 十八\or 十九\or 二十\fi}
-\titlecontents{chapter}[0ex]{\tocchapterfont}{%
-    第\smuzhdigit{\thecontentslabel} 章\quad{}}{}{%
-    \hspace{.5em}\titlerule*[5pt]{$\cdot$}{\tocchapterfont\contentspage}}%
+\titlecontents{chapter}[0ex]{\tocchapterbold}{%
+    第\smuzhdigit{\thecontentslabel}章\quad{}}{}{%
+    \hspace{.5em}\titlerule*[5pt]{\boldmath$\cdot$}{\tocchapterbold\contentspage}}%
 \titlecontents{section}[2em]{\tocsectionfont}{%
     \thecontentslabel\quad{}}{}{%
     \hspace{.5em}\titlerule*[5pt]{$\cdot$}{\tocsectionfont\contentspage}}%
@@ -541,11 +542,11 @@
 % Text style
 %%%%%%%%%%%%%%%%%%%%%%%%
 \RequirePackage[pagestyles, rm]{titlesec}%调用titlesec涵盖fancyhdr的功能
-\renewcommand{\chaptername}{第\smuzhdigit{\value{chapter}} 章}
-\titleformat{\chapter}[block]{\textchapterfont}{第\smuzhdigit{\value{chapter}} 章}{2em}{}
-\titleformat{\section}[hang]{\textsectionfont}{\thesection}{2em}{}
+\renewcommand{\chaptername}{第\smuzhdigit{\value{chapter}}章}
+\titleformat{\chapter}[block]{\textchapterfont}{第\smuzhdigit{\value{chapter}}章}{1em}{}
+\titleformat{\section}[hang]{\textsectionfont}{\thesection}{1em}{}
 \titleformat{\subsection}[hang]{\textsubsectionfont}{\thesubsection}{1em}{}
-\titleformat{\subsubsection}[hang]{\textsubsubsectionfont}{\thesubsubsection}{1ex}{}% 小四黑体居左
+\titleformat{\subsubsection}[hang]{\textsubsubsectionfont}{\thesubsubsection}{1ex}{}% 小四加粗宋体居左
 
 %\titlespacing{\chapter}{0pt}{3ex plus .5ex minus .5ex}{3ex plus .5ex minus .5ex} % 缩短章节标题的上边距
 \setlength{\parskip}{0ex}% 正文段前段后距：无空行
@@ -926,8 +927,7 @@
 \newpagestyle{smutocstyle}{
   \sethead[][{\headfont{}\smu@fronthead}][]% 偶数页：目录
   {}{{\headfont{}\@degree{}学位论文}}{}% 奇数页：学位论文类型
-  \setfoot[][\smufooterfont{}\thepage][]% 偶数页页码居中
-  {}{\smufooterfont{}\thepage}{}% 奇数页页码居中
+  \setfoot[][][]{}{}{}% 目录页不显示页脚页码
   \headrule
   \setheadrule{0.75pt}
 }
@@ -1084,7 +1084,7 @@
 %% 可继续用\newtheorem命令添加需要的环境
 % ------------
 
-\renewenvironment{proof}{\vskip 1pt\indent  证明:~\normalfont}{\hfill$\square$\vskip 0.01\baselineskip} %$\blacksquare$ -----去掉\itshape 该命令用于设置斜体
+\renewenvironment{proof}{\vskip 1pt\noindent\textbf{证明：}\normalfont}{\hfill$\square$\vskip 0.01\baselineskip} %$\blacksquare$ -----去掉\itshape 该命令用于设置斜体
 
 
 %\renewcommand{\proofname}{\hskip 2em 证明:~} %

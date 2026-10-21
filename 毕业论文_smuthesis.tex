@@ -7,7 +7,7 @@
 \usepackage{amssymb}
 \usepackage{graphicx}
 \usepackage{booktabs}
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 \usepackage[
   backend=biber,
   style=gb7714-2015,
@@ -16,7 +16,8 @@
   gbnamefmt=lowercase,
   doi=false,
   url=false,
-  isbn=false
+  isbn=false,
+  eprint=false
 ]{biblatex}
 \addbibresource{mybib.bib}
 
@@ -25,8 +26,8 @@
 \englishtitle{Research on YYY based on XXX}
 \coverctitle{基于XXX的}{YYY研究}
 \coveretitle{Research on YYY}{based on XXX}{}
-\titlectitle{基于XXX的YYY研究}{}
-\titleetitle{Research on YYY based on XXX}{}{}
+\titlectitle{基于XXX的}{YYY研究}
+\titleetitle{Research on YYY}{based on XXX}{}
 \schoolnameimage{图片/image.png}
 \author{张\quad 三}
 \enauthor{San Zhang}
