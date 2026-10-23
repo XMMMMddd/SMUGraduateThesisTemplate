@@ -1,0 +1,1897 @@
+{
+  "terms": [
+    {
+      "canonical": "P值",
+      "allowed": [
+        "P value"
+      ],
+      "forbidden": [
+        "p值"
+      ],
+      "reason": "统一使用\"P值\"，不写\"p值\"、\"P-value\"或\"p-value\"；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "第一类错误率",
+      "allowed": [
+        "type I error rate"
+      ],
+      "forbidden": [],
+      "reason": "不写\"α错误\"或\"Type I error\"；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "检验效能",
+      "allowed": [
+        "statistical power"
+      ],
+      "forbidden": [
+        "统计效能",
+        "统计功效"
+      ],
+      "reason": "不写“统计效能”“统计功效”或“power”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "置信区间",
+      "allowed": [
+        "confidence interval"
+      ],
+      "forbidden": [],
+      "reason": "不写“CI”或“confidence interval”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "标准误",
+      "allowed": [
+        "standard error",
+        "SE"
+      ],
+      "forbidden": [],
+      "reason": "SE 为保留缩写；中文摘要和中文正文分别首次定义后，正文、公式和表格中均可直接使用 SE；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "效应估计值",
+      "allowed": [
+        "effect estimate"
+      ],
+      "forbidden": [],
+      "reason": "不写\"效应大小\"或\"effect size\"；与“效应估计量”区分：前者指已获得的数值，后者指统计估计对象；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "因果效应",
+      "allowed": [
+        "causal effect"
+      ],
+      "forbidden": [],
+      "reason": "不写\"因果影响\"或\"causal effect\"；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "混杂因素",
+      "allowed": [
+        "confounder"
+      ],
+      "forbidden": [],
+      "reason": "指同时影响暴露和结局的变量；不与“混杂偏倚”混用；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "混杂偏倚",
+      "allowed": [
+        "confounding bias"
+      ],
+      "forbidden": [],
+      "reason": "指混杂因素造成的估计偏倚；不写“confounding bias”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "反向因果偏倚",
+      "allowed": [
+        "bias due to reverse causation"
+      ],
+      "forbidden": [],
+      "reason": "不写\"反向因果\"或\"reverse causality\"；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "线性回归模型",
+      "allowed": [
+        "linear regression model"
+      ],
+      "forbidden": [],
+      "reason": "不写\"线性回归\"或\"linear regression\"；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "logistic回归模型",
+      "allowed": [
+        "logistic regression model"
+      ],
+      "forbidden": [
+        "逻辑斯谛回归"
+      ],
+      "reason": "不写\"逻辑回归\"或\"逻辑斯谛回归\"；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "覆盖率",
+      "allowed": [
+        "coverage probability"
+      ],
+      "forbidden": [],
+      "reason": "不写\"覆盖水平\"或\"coverage rate\"；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "方差-协方差矩阵",
+      "allowed": [
+        "variance-covariance matrix"
+      ],
+      "forbidden": [],
+      "reason": "指包含方差和协方差的矩阵；交叉协方差矩阵、联合协方差矩阵和组合协方差矩阵等专门名称保留原写法；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "复杂性状",
+      "allowed": [
+        "complex trait"
+      ],
+      "forbidden": [
+        "复杂特征"
+      ],
+      "reason": "不写\"复杂特征\"或\"complex trait\"；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "遗传变异",
+      "allowed": [
+        "genetic variant"
+      ],
+      "forbidden": [],
+      "reason": "不写\"基因变异\"或\"genetic variant\"；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "等位基因",
+      "allowed": [
+        "allele"
+      ],
+      "forbidden": [
+        "对偶基因"
+      ],
+      "reason": "不写\"对偶基因\"或\"allele\"；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "基因型",
+      "allowed": [
+        "genotype"
+      ],
+      "forbidden": [
+        "遗传型"
+      ],
+      "reason": "不写\"遗传型\"或\"genotype\"；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "表型",
+      "allowed": [
+        "phenotype"
+      ],
+      "forbidden": [
+        "表现型"
+      ],
+      "reason": "不写\"表现型\"或\"phenotype\"；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "连锁不平衡",
+      "allowed": [
+        "linkage disequilibrium",
+        "LD"
+      ],
+      "forbidden": [],
+      "reason": "LD 为保留缩写，后续不回退使用中文全称；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "连锁不平衡剪枝",
+      "allowed": [
+        "linkage disequilibrium pruning",
+        "LD 剪枝",
+        "LD pruning"
+      ],
+      "forbidden": [
+        "LD 修剪",
+        "连锁不平衡筛选"
+      ],
+      "reason": "不写“LD 修剪”或“连锁不平衡筛选”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "等位基因频率",
+      "allowed": [
+        "allele frequency"
+      ],
+      "forbidden": [],
+      "reason": "不写\"allele frequency\"；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "遗传度",
+      "allowed": [
+        "heritability"
+      ],
+      "forbidden": [
+        "遗传率"
+      ],
+      "reason": "不写\"遗传率\"或\"heritability\"；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "多基因风险评分",
+      "allowed": [
+        "polygenic risk score"
+      ],
+      "forbidden": [],
+      "reason": "不写\"PRS\"或\"polygenic risk score\"；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "全基因组关联研究",
+      "allowed": [
+        "genome-wide association study",
+        "GWAS"
+      ],
+      "forbidden": [],
+      "reason": "首次出现需写全称并标注缩写；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "孟德尔随机化",
+      "allowed": [
+        "Mendelian randomization",
+        "MR"
+      ],
+      "forbidden": [],
+      "reason": "首次出现需写全称并标注缩写；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "家系全基因组关联研究",
+      "allowed": [
+        "family-based genome-wide association study",
+        "FGWAS"
+      ],
+      "forbidden": [],
+      "reason": "首次出现需写全称并标注缩写；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "一般人群 GWAS",
+      "allowed": [
+        "population-based GWAS"
+      ],
+      "forbidden": [
+        "普通 GWAS"
+      ],
+      "reason": "用于与 FGWAS 对比；不写“普通 GWAS”；只有强调历史方法时才使用“传统 GWAS”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "家系孟德尔随机化",
+      "allowed": [
+        "family-based Mendelian randomization",
+        "FGWAS-MR"
+      ],
+      "forbidden": [],
+      "reason": "首次出现需写全称并标注缩写；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "逆方差加权法",
+      "allowed": [
+        "inverse-variance weighted method",
+        "IVW",
+        "MR-IVW",
+        "inverse-variance weighted"
+      ],
+      "forbidden": [],
+      "reason": "首次出现需写中文全称并标注缩写 IVW；方法名在方法比较处另行定义，之后全文统一以 MR-IVW 指代该方法，不再单独使用 IVW；中文全称首次定义后，于方法比较处一并定义方法名；后续统一使用 MR-IVW；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "工具变量",
+      "allowed": [
+        "instrumental variable",
+        "IV"
+      ],
+      "forbidden": [],
+      "reason": "允许使用 IV 指代工具变量，后续不写 IVs；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "直接遗传效应",
+      "allowed": [
+        "direct genetic effect",
+        "DGE"
+      ],
+      "forbidden": [],
+      "reason": "首次出现需写全称并标注缩写；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "间接遗传效应",
+      "allowed": [
+        "indirect genetic effect",
+        "IGE"
+      ],
+      "forbidden": [],
+      "reason": "首次出现需写全称并标注缩写；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "工具强度独立于直接效应假设",
+      "allowed": [
+        "Instrument Strength Independent of Direct Effect assumption",
+        "InSIDE 假设",
+        "InSIDE assumption",
+        "InSIDE",
+        "Instrument Strength Independent of Direct Effect"
+      ],
+      "forbidden": [
+        "工具变量强度独立于直接效应假设"
+      ],
+      "reason": "InSIDE 为保留缩写；不写“工具变量强度独立于直接效应假设”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "模型平均",
+      "allowed": [
+        "model averaging",
+        "MA"
+      ],
+      "forbidden": [],
+      "reason": "MA 为保留缩写；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "数据扰动",
+      "allowed": [
+        "data perturbation",
+        "DP"
+      ],
+      "forbidden": [],
+      "reason": "DP 为保留缩写；按现有表格定义，后续使用 DP；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "拟合优度检验",
+      "allowed": [
+        "goodness-of-fit test",
+        "GoF",
+        "GoF 检验",
+        "GoF test"
+      ],
+      "forbidden": [],
+      "reason": "GoF 为保留缩写；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "修正贝叶斯信息准则",
+      "allowed": [
+        "modified Bayesian information criterion",
+        "BIC'"
+      ],
+      "forbidden": [],
+      "reason": "公式中写作 `$\\mathrm{BIC}'$`；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "平均未传递亲代效应估计量",
+      "allowed": [
+        "average non-transmitted coefficient",
+        "NTC"
+      ],
+      "forbidden": [],
+      "reason": "NTC 为保留缩写；若“平均父母效应”指同一 NTC 量，应统一改为本规范名称或后续直接写 NTC；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "混合模型孟德尔随机化方法",
+      "allowed": [
+        "Mendelian randomization analysis using mixture models",
+        "MRMix",
+        "Mendelian randomization mixture model"
+      ],
+      "forbidden": [],
+      "reason": "MRMix 为保留缩写；中文全称首次定义，后续使用 MRMix；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "等位基因协调",
+      "allowed": [
+        "allele harmonization"
+      ],
+      "forbidden": [
+        "效应等位基因统一"
+      ],
+      "reason": "指统一暴露与结局数据中的效应等位基因及其方向；不写“效应等位基因统一”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "蒙特卡罗模拟",
+      "allowed": [
+        "Monte Carlo simulation"
+      ],
+      "forbidden": [],
+      "reason": "用于指具体的随机模拟方法；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "模拟研究",
+      "allowed": [
+        "simulation study"
+      ],
+      "forbidden": [
+        "统计模拟",
+        "模拟实验"
+      ],
+      "reason": "用于章名、研究设计和总体叙述；不写“统计模拟”或“模拟实验”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "实例分析",
+      "allowed": [
+        "empirical analysis"
+      ],
+      "forbidden": [],
+      "reason": "仅用于章名或章节名称；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "真实数据分析",
+      "allowed": [
+        "real-data analysis"
+      ],
+      "forbidden": [],
+      "reason": "用于正文中对实际数据分析过程和结果的叙述；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "脱氧核糖核酸",
+      "allowed": [
+        "deoxyribonucleic acid",
+        "DNA"
+      ],
+      "forbidden": [],
+      "reason": "首次出现需写全称并标注缩写；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "单核苷酸多态性",
+      "allowed": [
+        "single nucleotide polymorphism",
+        "SNP"
+      ],
+      "forbidden": [],
+      "reason": "首次出现需写全称并标注缩写；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "体质指数",
+      "allowed": [
+        "body mass index",
+        "BMI"
+      ],
+      "forbidden": [],
+      "reason": "首次出现需写全称并标注缩写；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "全基因组测序",
+      "allowed": [
+        "whole-genome sequencing",
+        "WGS"
+      ],
+      "forbidden": [],
+      "reason": "首次出现需写全称并标注缩写；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "全外显子组测序",
+      "allowed": [
+        "whole-exome sequencing",
+        "WES"
+      ],
+      "forbidden": [],
+      "reason": "首次出现需写全称并标注缩写；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "基因芯片",
+      "allowed": [
+        "genotyping array"
+      ],
+      "forbidden": [],
+      "reason": "不写\"SNP芯片\"或\"genotyping array\"；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "基因型插补",
+      "allowed": [
+        "genotype imputation"
+      ],
+      "forbidden": [
+        "基因型填充"
+      ],
+      "reason": "不写“基因型填充”或“imputation”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "水平多效性",
+      "allowed": [
+        "horizontal pleiotropy"
+      ],
+      "forbidden": [],
+      "reason": "凡指 horizontal pleiotropy 均必须保留“水平”二字；不使用“方向性水平多效性”这一术语；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "平衡水平多效性",
+      "allowed": [
+        "balanced horizontal pleiotropy"
+      ],
+      "forbidden": [
+        "平衡多效性"
+      ],
+      "reason": "不写“平衡多效性”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "相关水平多效性",
+      "allowed": [
+        "correlated horizontal pleiotropy"
+      ],
+      "forbidden": [
+        "相关多效性"
+      ],
+      "reason": "不写“相关多效性”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "非相关水平多效性",
+      "allowed": [
+        "uncorrelated horizontal pleiotropy"
+      ],
+      "forbidden": [
+        "非相关多效性"
+      ],
+      "reason": "不写“非相关多效性”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "直接水平多效性",
+      "allowed": [
+        "direct horizontal pleiotropy"
+      ],
+      "forbidden": [],
+      "reason": "指遗传变异不通过未观测混杂因素而直接影响结局的水平多效性成分，与经由混杂路径的“相关水平多效性”相对；对应符号为 $l_{o,j}$、$l_{f,j}$、$l_{m,j}$；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "群体分层",
+      "allowed": [
+        "population stratification"
+      ],
+      "forbidden": [],
+      "reason": "不写\"population stratification\"；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "遗传养育效应",
+      "allowed": [
+        "genetic nurture"
+      ],
+      "forbidden": [
+        "遗传培育效应"
+      ],
+      "reason": "父母 IGE 的一种典型表现，不与 IGE 完全等同；不写\"genetic nurture\"或\"遗传培育效应\"；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "选型婚配",
+      "allowed": [
+        "assortative mating"
+      ],
+      "forbidden": [],
+      "reason": "不写\"assortative mating\"；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "世袭效应",
+      "allowed": [
+        "dynastic effect"
+      ],
+      "forbidden": [
+        "王朝效应"
+      ],
+      "reason": "不写“王朝效应”或“dynastic effect”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "核心家系",
+      "allowed": [
+        "nuclear family"
+      ],
+      "forbidden": [],
+      "reason": "不写\"nuclear family\"；指父母与子代组成的家系结构；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "同胞对",
+      "allowed": [
+        "sibling pair",
+        "sib-pair"
+      ],
+      "forbidden": [],
+      "reason": "不写\"sib-pair\"或\"sibling pair\"；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "子代",
+      "allowed": [
+        "offspring"
+      ],
+      "forbidden": [],
+      "reason": "中文正文不写“后代”“孩子”；英文摘要可按英文语境使用 offspring，但不与中文术语混用；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "父源",
+      "allowed": [
+        "paternal"
+      ],
+      "forbidden": [],
+      "reason": "用于效应来源，如“父源 IGE”；不写\"paternal\"；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "母源",
+      "allowed": [
+        "maternal"
+      ],
+      "forbidden": [],
+      "reason": "用于效应来源，如“母源 IGE”；不写\"maternal\"；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "父亲基因型",
+      "allowed": [
+        "father's genotype"
+      ],
+      "forbidden": [
+        "父源基因型"
+      ],
+      "reason": "指父亲本人的实际基因型；不写“父源基因型”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "母亲基因型",
+      "allowed": [
+        "mother's genotype"
+      ],
+      "forbidden": [
+        "母源基因型"
+      ],
+      "reason": "指母亲本人的实际基因型；不写“母源基因型”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "家系均值",
+      "allowed": [
+        "family mean"
+      ],
+      "forbidden": [],
+      "reason": "不写\"family mean\"；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "同胞差分",
+      "allowed": [
+        "sibling difference"
+      ],
+      "forbidden": [],
+      "reason": "不写\"sibling difference\"；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "汇总统计量",
+      "allowed": [
+        "summary statistics"
+      ],
+      "forbidden": [],
+      "reason": "不写\"summary statistics\"；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "父母",
+      "allowed": [
+        "parents"
+      ],
+      "forbidden": [],
+      "reason": "泛指父亲和母亲时正文优先用“父母”；“父母代”仅在强调模拟中的代际层次时保留；固定术语“平均未传递亲代效应估计量”不改；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "孟德尔遗传定律",
+      "allowed": [
+        "Mendel's laws of inheritance"
+      ],
+      "forbidden": [
+        "孟德尔遗传规律"
+      ],
+      "reason": "全文建议统一为“孟德尔遗传定律”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "哈代-温伯格定律",
+      "allowed": [
+        "Hardy-Weinberg law"
+      ],
+      "forbidden": [],
+      "reason": "当前稿按生成机制统一用“哈代-温伯格定律”；若强调群体状态，可使用“哈代-温伯格平衡”，但全文需保持语境一致；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "效应估计量",
+      "allowed": [
+        "effect estimator"
+      ],
+      "forbidden": [],
+      "reason": "“估计量”指统计对象或公式，“估计值”指该对象在数据上的实现值；按语境区分；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "显著性水平",
+      "allowed": [
+        "significance level"
+      ],
+      "forbidden": [],
+      "reason": "指预先设定的检验阈值；不与“显著性阈值”混为一谈；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "显著性阈值",
+      "allowed": [
+        "significance threshold"
+      ],
+      "forbidden": [],
+      "reason": "用于筛选 SNP 或判定统计显著性；与显著性水平按研究环节区分；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "检验统计量",
+      "allowed": [
+        "test statistic"
+      ],
+      "forbidden": [
+        "统计量检验"
+      ],
+      "reason": "不写“统计量检验”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "z 检验",
+      "allowed": [
+        "z test"
+      ],
+      "forbidden": [],
+      "reason": "保留字母 z 的统计检验名称；不改写为“Z-test”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "敏感性分析",
+      "allowed": [
+        "sensitivity analysis"
+      ],
+      "forbidden": [
+        "敏感度分析",
+        "灵敏度分析"
+      ],
+      "reason": "不写“敏感度分析”或“灵敏度分析”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "多重检验校正",
+      "allowed": [
+        "multiple-testing correction"
+      ],
+      "forbidden": [],
+      "reason": "不写“多重比较校正”作为本研究的固定术语；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "研究间异质性",
+      "allowed": [
+        "between-study heterogeneity"
+      ],
+      "forbidden": [],
+      "reason": "用于不同研究或数据来源之间的差异；不与个体水平变异混同；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "估计偏倚",
+      "allowed": [
+        "estimation bias"
+      ],
+      "forbidden": [],
+      "reason": "指估计结果相对于真实参数的系统性偏离；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "估计稳定性",
+      "allowed": [
+        "stability of estimation"
+      ],
+      "forbidden": [],
+      "reason": "用于描述不同模拟情形或扰动重复下估计结果的波动程度；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "经验标准差",
+      "allowed": [
+        "empirical standard deviation"
+      ],
+      "forbidden": [],
+      "reason": "用于模拟重复结果的经验离散程度；不替代“标准误”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "经验方差",
+      "allowed": [
+        "empirical variance"
+      ],
+      "forbidden": [],
+      "reason": "由重复模拟或数据扰动结果计算；与理论方差相对；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "理论方差",
+      "allowed": [
+        "theoretical variance"
+      ],
+      "forbidden": [],
+      "reason": "由模型或渐近推导得到；不与经验方差互换；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "似然函数",
+      "allowed": [
+        "likelihood function"
+      ],
+      "forbidden": [
+        "似然性函数"
+      ],
+      "reason": "不写“似然性函数”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "对数似然函数",
+      "allowed": [
+        "log-likelihood function"
+      ],
+      "forbidden": [],
+      "reason": "由似然函数取对数得到的目标函数；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "轮廓似然",
+      "allowed": [
+        "profile likelihood"
+      ],
+      "forbidden": [
+        "剖面似然"
+      ],
+      "reason": "对讨厌参数进行消去或优化后的似然；不写“剖面似然”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "加权轮廓似然函数",
+      "allowed": [
+        "weighted profile likelihood function"
+      ],
+      "forbidden": [],
+      "reason": "本文 MR-Family 及相关方法使用的具体目标函数名称；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "极大似然估计",
+      "allowed": [
+        "maximum likelihood estimation"
+      ],
+      "forbidden": [
+        "最大似然估计"
+      ],
+      "reason": "与“约束极大似然”配套使用；不写“最大似然估计”作为统一术语；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "约束极大似然",
+      "allowed": [
+        "constrained maximum likelihood"
+      ],
+      "forbidden": [],
+      "reason": "MRcML 框架的中文方法学名称；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "讨厌参数",
+      "allowed": [
+        "nuisance parameter"
+      ],
+      "forbidden": [
+        "干扰参数"
+      ],
+      "reason": "统计推断中的 nuisance parameter；不改写为“干扰参数”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "观测信息矩阵",
+      "allowed": [
+        "observed information matrix"
+      ],
+      "forbidden": [
+        "观测信息量矩阵"
+      ],
+      "reason": "不写“观测信息量矩阵”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "Hessian 矩阵",
+      "allowed": [
+        "Hessian matrix"
+      ],
+      "forbidden": [],
+      "reason": "指对数似然函数的二阶导数矩阵；保留专名 Hessian；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "Schur 补",
+      "allowed": [
+        "Schur complement"
+      ],
+      "forbidden": [],
+      "reason": "用于从分块信息矩阵中得到目标参数的有效信息；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "一致性",
+      "allowed": [
+        "consistency"
+      ],
+      "forbidden": [],
+      "reason": "按数学语境区分；不笼统替换为“稳定性”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "渐近一致性",
+      "allowed": [
+        "asymptotic consistency"
+      ],
+      "forbidden": [],
+      "reason": "按数学语境区分；不笼统替换为“稳定性”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "一致估计量",
+      "allowed": [
+        "consistent estimator"
+      ],
+      "forbidden": [],
+      "reason": "指随样本量增加收敛于目标参数的估计量；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "渐近正态性",
+      "allowed": [
+        "asymptotic normality"
+      ],
+      "forbidden": [
+        "渐近正态分布性"
+      ],
+      "reason": "不写“渐近正态分布性”作为统一术语；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "渐近方差",
+      "allowed": [
+        "asymptotic variance"
+      ],
+      "forbidden": [],
+      "reason": "指极限分布或渐近展开中的方差；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "Lindeberg 条件",
+      "allowed": [
+        "Lindeberg condition"
+      ],
+      "forbidden": [],
+      "reason": "中心极限定理相关条件，保留专名写法；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "Lyapunov 条件",
+      "allowed": [
+        "Lyapunov condition"
+      ],
+      "forbidden": [],
+      "reason": "中心极限定理相关条件，保留专名写法；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "相关系数",
+      "allowed": [
+        "correlation coefficient"
+      ],
+      "forbidden": [
+        "相关性系数"
+      ],
+      "reason": "不写“相关性系数”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "交叉协方差",
+      "allowed": [
+        "cross-covariance"
+      ],
+      "forbidden": [],
+      "reason": "描述暴露与结局效应估计之间的协方差；需要矩阵形式时写“交叉协方差矩阵”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "抽样方差-协方差矩阵",
+      "allowed": [
+        "sampling variance-covariance matrix"
+      ],
+      "forbidden": [],
+      "reason": "指汇总统计量估计误差的方差-协方差结构；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "固定效应模型",
+      "allowed": [
+        "fixed-effect model"
+      ],
+      "forbidden": [],
+      "reason": "用于多祖源结果的固定效应整合；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "随机效应模型",
+      "allowed": [
+        "random-effects model"
+      ],
+      "forbidden": [],
+      "reason": "用于允许不同祖源效应存在异质性的整合；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "自然随机化",
+      "allowed": [
+        "natural randomization"
+      ],
+      "forbidden": [],
+      "reason": "用于说明遗传变异的自然分配与随机对照试验的类比；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "随机对照试验",
+      "allowed": [
+        "randomized controlled trial"
+      ],
+      "forbidden": [
+        "随机控制试验"
+      ],
+      "reason": "不写“随机控制试验”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "遗传流行病学",
+      "allowed": [
+        "genetic epidemiology"
+      ],
+      "forbidden": [
+        "遗传流行病学学"
+      ],
+      "reason": "不写“遗传流行病学学”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "相关性假设",
+      "allowed": [
+        "relevance assumption"
+      ],
+      "forbidden": [],
+      "reason": "三项核心 IV 假设之一，要求 IV 与暴露相关；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "独立性假设",
+      "allowed": [
+        "independence assumption"
+      ],
+      "forbidden": [],
+      "reason": "三项核心 IV 假设之一，要求 IV 与混杂因素独立；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "排除限制假设",
+      "allowed": [
+        "exclusion restriction assumption"
+      ],
+      "forbidden": [],
+      "reason": "三项核心 IV 假设之一，要求 IV 不通过暴露以外路径影响结局；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "弱工具变量",
+      "allowed": [
+        "weak instrumental variable"
+      ],
+      "forbidden": [
+        "弱 IV 变量"
+      ],
+      "reason": "不写“弱 IV 变量”；后文可写“弱 IV 问题”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "有效 IV",
+      "allowed": [
+        "valid IV"
+      ],
+      "forbidden": [],
+      "reason": "全文统一保留 IV；不写“有效工具”或“无效工具”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "无效 IV",
+      "allowed": [
+        "invalid IV"
+      ],
+      "forbidden": [],
+      "reason": "全文统一保留 IV；不写“有效工具”或“无效工具”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "Wald 比值法",
+      "allowed": [
+        "Wald ratio method"
+      ],
+      "forbidden": [],
+      "reason": "单个 IV 情形下的因果效应估计方法；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "MR-Egger",
+      "allowed": [],
+      "forbidden": [
+        "MR Egger"
+      ],
+      "reason": "方法名保持大小写和连字符，不改写为“MR Egger”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "MR-Lasso",
+      "allowed": [],
+      "forbidden": [
+        "MR Lasso"
+      ],
+      "reason": "方法名保持大小写和连字符，不改写为“MR Lasso”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "基于约束极大似然的孟德尔随机化",
+      "allowed": [
+        "Mendelian randomization based on constrained maximum likelihood",
+        "MRcML"
+      ],
+      "forbidden": [],
+      "reason": "首次出现使用中文全称并定义 MRcML；后续使用 MRcML；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "cisMR-cML",
+      "allowed": [],
+      "forbidden": [],
+      "reason": "顺式孟德尔随机化约束极大似然方法的正式名称，保留大小写和连字符；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "高斯混合模型",
+      "allowed": [
+        "Gaussian mixture model"
+      ],
+      "forbidden": [],
+      "reason": "MRMix 的统计模型框架，不与 MRMix 方法名混用；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "期望最大化算法",
+      "allowed": [
+        "expectation-maximization algorithm"
+      ],
+      "forbidden": [
+        "最大期望算法"
+      ],
+      "reason": "不写“最大期望算法”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "因果异常评分估计方法",
+      "allowed": [
+        "causal analysis using summary effect estimates"
+      ],
+      "forbidden": [],
+      "reason": "作为方法中文名称使用；不自行新增英文缩写；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "多数 IV 有效假设",
+      "allowed": [
+        "majority-valid assumption",
+        "多数 IV 有效"
+      ],
+      "forbidden": [],
+      "reason": "与“最大有效 IV 组条件”相关但不完全相同，按原文方法背景区分；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "最大有效 IV 组条件",
+      "allowed": [
+        "plurality-valid condition",
+        "最大有效 IV 组"
+      ],
+      "forbidden": [],
+      "reason": "MRcML-MA 相关的稳健识别条件，不简写为“多数有效”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "双 IV 集合",
+      "allowed": [
+        "two IV sets"
+      ],
+      "forbidden": [
+        "双工具集合"
+      ],
+      "reason": "指子代 IV 集合与父母辅助 IV 集合，不写“双工具集合”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "父母效应块",
+      "allowed": [
+        "parental effect block"
+      ],
+      "forbidden": [],
+      "reason": "指同一 SNP 下父亲和母亲效应组成的联合块；不等同于“父母 SNP”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "有效性指示向量",
+      "allowed": [
+        "validity indicator vector"
+      ],
+      "forbidden": [
+        "有效 IV 指示变量"
+      ],
+      "reason": "用于标记候选 IV 是否有效；不写“有效 IV 指示变量”作为统一术语；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "稀疏约束",
+      "allowed": [
+        "sparsity constraint"
+      ],
+      "forbidden": [
+        "稀疏限制"
+      ],
+      "reason": "不写“稀疏限制”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "$L_0$ 约束",
+      "allowed": [
+        "$L_0$ constraint"
+      ],
+      "forbidden": [
+        "L0约束"
+      ],
+      "reason": "数学符号按正文写作；不写“L0约束”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "Lasso 惩罚",
+      "allowed": [
+        "Lasso penalty"
+      ],
+      "forbidden": [
+        "LASSO惩罚"
+      ],
+      "reason": "保留 Lasso 的大小写；不写“LASSO惩罚”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "坐标下降算法",
+      "allowed": [
+        "coordinate descent algorithm"
+      ],
+      "forbidden": [
+        "坐标下降法"
+      ],
+      "reason": "不写“坐标下降法”作为统一名称；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "网格搜索",
+      "allowed": [
+        "grid search"
+      ],
+      "forbidden": [],
+      "reason": "用于遍历候选超参数或有效 IV 数量组合；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "稳定性选择",
+      "allowed": [
+        "stability selection"
+      ],
+      "forbidden": [
+        "稳定选择"
+      ],
+      "reason": "不写“稳定选择”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "经验贝叶斯",
+      "allowed": [
+        "empirical Bayes"
+      ],
+      "forbidden": [
+        "经验 Bayes"
+      ],
+      "reason": "不写“经验 Bayes”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "稀疏先验",
+      "allowed": [
+        "sparse prior"
+      ],
+      "forbidden": [],
+      "reason": "贝叶斯模型中的先验设定；不与稀疏约束互换；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "后验分布",
+      "allowed": [
+        "posterior distribution"
+      ],
+      "forbidden": [
+        "后验概率分布"
+      ],
+      "reason": "不写“后验概率分布”作为统一术语；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "边际似然",
+      "allowed": [
+        "marginal likelihood"
+      ],
+      "forbidden": [],
+      "reason": "模型比较或超参数选择中的边际目标；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "近端梯度算法",
+      "allowed": [
+        "proximal gradient algorithm"
+      ],
+      "forbidden": [
+        "近端梯度法"
+      ],
+      "reason": "不写“近端梯度法”作为统一名称；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "混合整数优化",
+      "allowed": [
+        "mixed-integer optimization"
+      ],
+      "forbidden": [],
+      "reason": "用于求解离散有效 IV 选择问题；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "孟德尔性状",
+      "allowed": [
+        "Mendelian trait"
+      ],
+      "forbidden": [
+        "孟德尔特征"
+      ],
+      "reason": "与复杂性状相对；不写“孟德尔特征”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "基因—环境交互作用",
+      "allowed": [
+        "gene-environment interaction"
+      ],
+      "forbidden": [
+        "基因环境交互"
+      ],
+      "reason": "保留连接号“—”；不写“基因环境交互”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "染色体",
+      "allowed": [
+        "chromosome"
+      ],
+      "forbidden": [],
+      "reason": "不写“染色体组”替代一般染色体概念；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "常染色体",
+      "allowed": [
+        "autosome"
+      ],
+      "forbidden": [
+        "体染色体"
+      ],
+      "reason": "不写“体染色体”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "性染色体",
+      "allowed": [
+        "sex chromosome"
+      ],
+      "forbidden": [
+        "性别染色体"
+      ],
+      "reason": "不写“性别染色体”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "基因组",
+      "allowed": [
+        "genome"
+      ],
+      "forbidden": [],
+      "reason": "不写“全基因组”替代一般基因组概念；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "碱基对",
+      "allowed": [
+        "base pair"
+      ],
+      "forbidden": [],
+      "reason": "不写“碱基配对”替代数量单位；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "脱氧核苷酸",
+      "allowed": [
+        "deoxyribonucleotide"
+      ],
+      "forbidden": [],
+      "reason": "与“脱氧核糖核酸（DNA）”区分；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "双螺旋结构",
+      "allowed": [
+        "double-helix structure"
+      ],
+      "forbidden": [],
+      "reason": "DNA 的结构描述；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "碱基互补配对",
+      "allowed": [
+        "complementary base pairing"
+      ],
+      "forbidden": [],
+      "reason": "不写“碱基互补”作为统一术语；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "遗传位点",
+      "allowed": [
+        "genetic locus"
+      ],
+      "forbidden": [],
+      "reason": "不写“基因位点”替代所有语境；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "基因组范围",
+      "allowed": [
+        "genome-wide scope"
+      ],
+      "forbidden": [],
+      "reason": "首次出现可写“全基因组范围”，后文按语境简写；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "编码区",
+      "allowed": [
+        "coding region"
+      ],
+      "forbidden": [
+        "编码区域"
+      ],
+      "reason": "不写“编码区域”作为统一术语；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "调控区",
+      "allowed": [
+        "regulatory region"
+      ],
+      "forbidden": [
+        "调控区域"
+      ],
+      "reason": "不写“调控区域”作为统一术语；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "基因间区域",
+      "allowed": [
+        "intergenic region"
+      ],
+      "forbidden": [],
+      "reason": "不写“基因间区”作为统一术语；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "效应等位基因",
+      "allowed": [
+        "effect allele"
+      ],
+      "forbidden": [],
+      "reason": "指关联效应所对应的等位基因；与非效应等位基因相对；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "非效应等位基因",
+      "allowed": [
+        "non-effect allele"
+      ],
+      "forbidden": [
+        "非效应 allele"
+      ],
+      "reason": "不写“非效应 allele”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "次要等位基因频率",
+      "allowed": [
+        "minor allele frequency"
+      ],
+      "forbidden": [
+        "次要等位基因频数"
+      ],
+      "reason": "不写“次要等位基因频数”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "插入缺失",
+      "allowed": [
+        "insertion-deletion variant"
+      ],
+      "forbidden": [
+        "插入/删除变异"
+      ],
+      "reason": "不写“插入/删除变异”作为统一术语；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "拷贝数变异",
+      "allowed": [
+        "copy number variation"
+      ],
+      "forbidden": [
+        "拷贝数改变"
+      ],
+      "reason": "不写“拷贝数改变”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "短串联重复序列",
+      "allowed": [
+        "short tandem repeat sequence"
+      ],
+      "forbidden": [
+        "短串联重复片段"
+      ],
+      "reason": "不写“短串联重复片段”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "结构变异",
+      "allowed": [
+        "structural variation"
+      ],
+      "forbidden": [
+        "结构性变异"
+      ],
+      "reason": "不写“结构性变异”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "高通量基因分型",
+      "allowed": [
+        "high-throughput genotyping"
+      ],
+      "forbidden": [
+        "高通量基因型检测"
+      ],
+      "reason": "不写“高通量基因型检测”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "高通量测序",
+      "allowed": [
+        "high-throughput sequencing"
+      ],
+      "forbidden": [],
+      "reason": "不写“高通量测序技术”作为固定术语；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "寡核苷酸探针",
+      "allowed": [
+        "oligonucleotide probe"
+      ],
+      "forbidden": [
+        "寡核苷酸探测器"
+      ],
+      "reason": "不写“寡核苷酸探测器”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "参考面板",
+      "allowed": [
+        "reference panel"
+      ],
+      "forbidden": [
+        "参考板"
+      ],
+      "reason": "基因型插补所用参考数据集；不写“参考板”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "回文 SNP",
+      "allowed": [
+        "palindromic SNP"
+      ],
+      "forbidden": [],
+      "reason": "指 A/T 或 C/G 等难以判断链方向的 SNP；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "链方向不明确",
+      "allowed": [
+        "ambiguous strand orientation"
+      ],
+      "forbidden": [
+        "链不清晰"
+      ],
+      "reason": "数据协调时的剔除理由；不写“链不清晰”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "统一链方向",
+      "allowed": [
+        "strand alignment"
+      ],
+      "forbidden": [],
+      "reason": "等位基因协调过程中的数据预处理步骤；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "连续性状",
+      "allowed": [
+        "continuous trait"
+      ],
+      "forbidden": [],
+      "reason": "描述取值连续的性状；不与“二分类结局”互换；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "定量性状",
+      "allowed": [
+        "quantitative trait"
+      ],
+      "forbidden": [],
+      "reason": "强调可进行数量测量的性状；与连续性状相关但不完全同义；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "二分类结局",
+      "allowed": [
+        "binary outcome"
+      ],
+      "forbidden": [
+        "二元结局"
+      ],
+      "reason": "不写“二元结局”作为全文统一术语；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "生存结局",
+      "allowed": [
+        "survival outcome"
+      ],
+      "forbidden": [
+        "生存性状"
+      ],
+      "reason": "不写“生存性状”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "非线性因果关系",
+      "allowed": [
+        "nonlinear causal relationship"
+      ],
+      "forbidden": [],
+      "reason": "不写“非线性因果效应”替代关系层面的表述；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "多变量 MR",
+      "allowed": [
+        "multivariable MR"
+      ],
+      "forbidden": [
+        "多元 MR"
+      ],
+      "reason": "不写“多元 MR”作为统一术语；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "父母—子代三联体",
+      "allowed": [
+        "parent-offspring trio",
+        "三联体",
+        "trio"
+      ],
+      "forbidden": [
+        "父母子代三联体"
+      ],
+      "reason": "保留连接号“—”；不写“父母子代三联体”作为统一术语；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "同胞内 GWAS",
+      "allowed": [
+        "within-sibship GWAS"
+      ],
+      "forbidden": [],
+      "reason": "不写“同胞 GWAS”替代强调家系内比较的语境；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "家系内随机遗传传递",
+      "allowed": [
+        "random genetic transmission within families"
+      ],
+      "forbidden": [
+        "家系内随机分配"
+      ],
+      "reason": "不写“家系内随机分配”替代遗传传递过程；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "家系间环境差异",
+      "allowed": [
+        "between-family environmental differences"
+      ],
+      "forbidden": [],
+      "reason": "与家系内部遗传传递的随机性区分；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "共享家庭环境",
+      "allowed": [
+        "shared family environment"
+      ],
+      "forbidden": [
+        "家庭共享环境"
+      ],
+      "reason": "不写“家庭共享环境”作为统一术语；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "未传递等位基因",
+      "allowed": [
+        "non-transmitted allele"
+      ],
+      "forbidden": [
+        "未传递基因"
+      ],
+      "reason": "不写“未传递基因”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "亲子基因型相关性",
+      "allowed": [
+        "parent-offspring genotype correlation"
+      ],
+      "forbidden": [
+        "亲子基因型关联"
+      ],
+      "reason": "不写“亲子基因型关联”作为统一术语；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "家系层面混杂",
+      "allowed": [
+        "family-level confounding"
+      ],
+      "forbidden": [
+        "家庭层面混杂"
+      ],
+      "reason": "不写“家庭层面混杂”作为全文统一术语；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "父母效应",
+      "allowed": [
+        "parental effect"
+      ],
+      "forbidden": [],
+      "reason": "泛指父亲和母亲产生的效应；具体来源分别写父源 IGE、母源 IGE；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "父源 IGE",
+      "allowed": [
+        "paternal IGE"
+      ],
+      "forbidden": [],
+      "reason": "指效应来源；不替换为父亲 IGE、母亲 IGE，也不与父亲基因型、母亲基因型混用；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "母源 IGE",
+      "allowed": [
+        "maternal IGE"
+      ],
+      "forbidden": [],
+      "reason": "指效应来源；不替换为父亲 IGE、母亲 IGE，也不与父亲基因型、母亲基因型混用；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "统一估计量",
+      "allowed": [
+        "unified estimator"
+      ],
+      "forbidden": [
+        "综合估计量"
+      ],
+      "reason": "指整合有无亲属信息个体的估计量；不写“综合估计量”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "稳健估计量",
+      "allowed": [
+        "robust estimator"
+      ],
+      "forbidden": [
+        "鲁棒估计量"
+      ],
+      "reason": "指利用家系内随机遗传传递、较少受群体分层影响的估计量；不写“鲁棒估计量”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "单样本汇总统计量 MR",
+      "allowed": [
+        "one-sample MR using summary statistics"
+      ],
+      "forbidden": [],
+      "reason": "本文真实数据分析的研究设计表述；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "双样本 MR",
+      "allowed": [
+        "two-sample MR"
+      ],
+      "forbidden": [],
+      "reason": "暴露和结局汇总统计量来自相互独立或不同样本的 MR 设计；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "样本重叠",
+      "allowed": [
+        "sample overlap"
+      ],
+      "forbidden": [
+        "样本交叠"
+      ],
+      "reason": "不写“样本交叠”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "负对照设计",
+      "allowed": [
+        "negative-control design"
+      ],
+      "forbidden": [
+        "阴性对照设计"
+      ],
+      "reason": "不写“阴性对照设计”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "半模拟数据",
+      "allowed": [
+        "semi-simulated data"
+      ],
+      "forbidden": [
+        "伪真实数据"
+      ],
+      "reason": "指在真实数据基础上构造的模拟数据；不写“伪真实数据”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "英国生物样本库",
+      "allowed": [
+        "UK Biobank",
+        "UKB"
+      ],
+      "forbidden": [
+        "英国生物银行"
+      ],
+      "reason": "UKB 为保留缩写；不写“英国生物银行”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "白人英国祖源",
+      "allowed": [
+        "White British ancestry"
+      ],
+      "forbidden": [],
+      "reason": "本文数据来源的祖源描述；不自行改写为“英国白人血统”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "祖源异质性",
+      "allowed": [
+        "ancestry heterogeneity"
+      ],
+      "forbidden": [],
+      "reason": "描述不同祖源之间的遗传背景差异；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "混合祖源",
+      "allowed": [
+        "admixed ancestry"
+      ],
+      "forbidden": [],
+      "reason": "描述样本具有多个祖源成分；与“祖源混合”所指的形成过程区分；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "祖源混合",
+      "allowed": [
+        "ancestry admixture"
+      ],
+      "forbidden": [],
+      "reason": "描述不同祖源成分混合的过程；不与“混合祖源”机械互换；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "Social Science Genetic Association Consortium",
+      "allowed": [],
+      "forbidden": [],
+      "reason": "数据获取机构专名；低频英文专名不另行设置中文缩写；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "全转录组关联研究",
+      "allowed": [
+        "transcriptome-wide association study"
+      ],
+      "forbidden": [
+        "全转录组关联分析"
+      ],
+      "reason": "不写“全转录组关联分析”作为本术语表的固定名称；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "蛋白质组 MR",
+      "allowed": [
+        "proteomic MR"
+      ],
+      "forbidden": [
+        "蛋白组 MR"
+      ],
+      "reason": "不写“蛋白组 MR”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "代谢组 MR",
+      "allowed": [
+        "metabolomic MR"
+      ],
+      "forbidden": [
+        "代谢组学 MR"
+      ],
+      "reason": "不写“代谢组学 MR”；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "拒绝率",
+      "allowed": [
+        "rejection rate"
+      ],
+      "forbidden": [],
+      "reason": "按具体统计对象、过程或群体状态区分，不与近义术语机械互换。；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "协方差矩阵",
+      "allowed": [
+        "covariance matrix"
+      ],
+      "forbidden": [],
+      "reason": "按具体统计对象、过程或群体状态区分，不与近义术语机械互换。；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "交叉协方差矩阵",
+      "allowed": [
+        "cross-covariance matrix"
+      ],
+      "forbidden": [],
+      "reason": "按具体统计对象、过程或群体状态区分，不与近义术语机械互换。；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "联合协方差矩阵",
+      "allowed": [
+        "joint covariance matrix"
+      ],
+      "forbidden": [],
+      "reason": "按具体统计对象、过程或群体状态区分，不与近义术语机械互换。；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "组合协方差矩阵",
+      "allowed": [
+        "combined covariance matrix"
+      ],
+      "forbidden": [],
+      "reason": "按具体统计对象、过程或群体状态区分，不与近义术语机械互换。；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "效应估计",
+      "allowed": [
+        "effect estimation"
+      ],
+      "forbidden": [],
+      "reason": "按具体统计对象、过程或群体状态区分，不与近义术语机械互换。；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    },
+    {
+      "canonical": "哈代-温伯格平衡",
+      "allowed": [
+        "Hardy-Weinberg equilibrium"
+      ],
+      "forbidden": [],
+      "reason": "按具体统计对象、过程或群体状态区分，不与近义术语机械互换。；英文形式可用于英文摘要、英文图表或首次定义；缩写首现、语言适用范围和概念边界需结合上下文核对。"
+    }
+  ]
+}

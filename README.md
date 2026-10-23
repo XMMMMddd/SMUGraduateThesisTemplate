@@ -202,3 +202,16 @@ bash skills/smu-thesis-writing/scripts/audit-thesis.sh 毕业论文_smuthesis.te
 Windows 或 Linux 用户需要根据本机字体修改 `smuthesis.cls` 中的 `\setCJKmainfont`、`\setCJKsansfont`、`\setCJKmonofont` 和相关字体族配置。
 
 在 macOS 上，模板会优先读取 Microsoft Word 自带的 `Deng.ttf` 和 `Dengb.ttf`；在 Windows 上则使用系统安装的 `DengXian`。未找到等线字体时会回退到 `Heiti SC Light` 并给出编译警告。
+
+## 随模板附带的中英文术语表
+
+模板附带医学统计、遗传流行病学与家系孟德尔随机化的 212 个概念，依据原论文术语表整理为插件可读取的词库：
+
+- [中文说明与术语表](术语表.md)
+- [English terminology guide](terminology.en.md)
+- [默认中文标准名词库](.academic-writing-terms.json)
+- [英文标准名词库](terminology.en.json)
+
+学术写作插件通过“新建文稿”克隆本仓库时，会保留上述文件。对根目录主文稿运行术语一致性检查，会自动读取同目录的 `.academic-writing-terms.json`；无需额外导入。JSON 采用现有 `terms` / `canonical` / `allowed` / `forbidden` / `reason` 格式。合法英文和缩写列为允许表达，首次定义、语言范围及近义概念边界按说明结合语境核对。
+
+英文项目可先备份默认 JSON，再用 `terminology.en.json` 的内容替换它；不要同时加载两份标准名不同的词库。需要在 AI 改写提示中使用完整词库时，可在“资料库 → 专有名词库 → 链接已有词库”选择当前默认 JSON。项目规则可按实际研究调整。

@@ -1,0 +1,1897 @@
+{
+  "terms": [
+    {
+      "canonical": "P value",
+      "allowed": [
+        "P值"
+      ],
+      "forbidden": [
+        "p值"
+      ],
+      "reason": "Use capital P; Chinese prose uses P值. Journal typography may override the English spacing. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "type I error rate",
+      "allowed": [
+        "第一类错误率"
+      ],
+      "forbidden": [],
+      "reason": "A rejection probability under the null; do not confuse an error with its rate. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "statistical power",
+      "allowed": [
+        "检验效能"
+      ],
+      "forbidden": [
+        "统计效能",
+        "统计功效"
+      ],
+      "reason": "A rejection probability under the alternative; distinguish it from type I error rate. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "confidence interval",
+      "allowed": [
+        "置信区间"
+      ],
+      "forbidden": [],
+      "reason": "Chinese prose uses the full Chinese term; an English abbreviation needs its own definition. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "standard error",
+      "allowed": [
+        "标准误",
+        "SE"
+      ],
+      "forbidden": [],
+      "reason": "Retain SE after defining it separately in each abstract or main-text domain; distinguish it from standard deviation. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "effect estimate",
+      "allowed": [
+        "效应估计值"
+      ],
+      "forbidden": [],
+      "reason": "A realized numerical estimate, not an estimator or a generic effect size. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "causal effect",
+      "allowed": [
+        "因果效应"
+      ],
+      "forbidden": [],
+      "reason": "Preserve the causal interpretation and its assumptions. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "confounder",
+      "allowed": [
+        "混杂因素"
+      ],
+      "forbidden": [],
+      "reason": "A variable affecting exposure and outcome; not the bias it can cause. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "confounding bias",
+      "allowed": [
+        "混杂偏倚"
+      ],
+      "forbidden": [],
+      "reason": "Bias due to confounding; not a confounder. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "bias due to reverse causation",
+      "allowed": [
+        "反向因果偏倚"
+      ],
+      "forbidden": [],
+      "reason": "Distinguish the bias from reverse causation as a process. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "linear regression model",
+      "allowed": [
+        "线性回归模型"
+      ],
+      "forbidden": [],
+      "reason": "Use the model name when referring to the statistical model. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "logistic regression model",
+      "allowed": [
+        "logistic回归模型"
+      ],
+      "forbidden": [
+        "逻辑斯谛回归"
+      ],
+      "reason": "Keep logistic in lowercase within running text. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "coverage probability",
+      "allowed": [
+        "覆盖率"
+      ],
+      "forbidden": [],
+      "reason": "The probability that an interval contains the target parameter; empirical coverage estimates this probability. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "variance-covariance matrix",
+      "allowed": [
+        "方差-协方差矩阵"
+      ],
+      "forbidden": [],
+      "reason": "Retain specialized names such as cross-covariance matrix or joint covariance matrix when required. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "complex trait",
+      "allowed": [
+        "复杂性状"
+      ],
+      "forbidden": [
+        "复杂特征"
+      ],
+      "reason": "Use trait consistently for the relevant genetic phenotype. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "genetic variant",
+      "allowed": [
+        "遗传变异"
+      ],
+      "forbidden": [],
+      "reason": "Distinguish a variant from a locus and from an allele. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "allele",
+      "allowed": [
+        "等位基因"
+      ],
+      "forbidden": [
+        "对偶基因"
+      ],
+      "reason": "Use the established genetic term. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "genotype",
+      "allowed": [
+        "基因型"
+      ],
+      "forbidden": [
+        "遗传型"
+      ],
+      "reason": "Distinguish genotype from phenotype. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "phenotype",
+      "allowed": [
+        "表型"
+      ],
+      "forbidden": [
+        "表现型"
+      ],
+      "reason": "Distinguish phenotype from genotype. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "linkage disequilibrium",
+      "allowed": [
+        "连锁不平衡",
+        "LD"
+      ],
+      "forbidden": [],
+      "reason": "Define LD before subsequent abbreviated use. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "linkage disequilibrium pruning",
+      "allowed": [
+        "连锁不平衡剪枝",
+        "LD 剪枝",
+        "LD pruning"
+      ],
+      "forbidden": [
+        "LD 修剪",
+        "连锁不平衡筛选"
+      ],
+      "reason": "After defining LD, use LD pruning; do not substitute clumping without checking the actual procedure. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "allele frequency",
+      "allowed": [
+        "等位基因频率"
+      ],
+      "forbidden": [],
+      "reason": "A frequency, not a count of alleles. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "heritability",
+      "allowed": [
+        "遗传度"
+      ],
+      "forbidden": [
+        "遗传率"
+      ],
+      "reason": "Use the project's preferred Chinese translation 遗传度. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "polygenic risk score",
+      "allowed": [
+        "多基因风险评分"
+      ],
+      "forbidden": [],
+      "reason": "The Chinese source retains the full Chinese term rather than PRS; do not introduce an abbreviation without a project decision. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "genome-wide association study",
+      "allowed": [
+        "全基因组关联研究",
+        "GWAS"
+      ],
+      "forbidden": [],
+      "reason": "Define GWAS separately in each writing domain. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "Mendelian randomization",
+      "allowed": [
+        "孟德尔随机化",
+        "MR"
+      ],
+      "forbidden": [],
+      "reason": "Define MR separately in each writing domain. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "family-based genome-wide association study",
+      "allowed": [
+        "家系全基因组关联研究",
+        "FGWAS"
+      ],
+      "forbidden": [],
+      "reason": "The project retains FGWAS; do not equate every family-based design with a within-sibship design. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "population-based GWAS",
+      "allowed": [
+        "一般人群 GWAS"
+      ],
+      "forbidden": [
+        "普通 GWAS"
+      ],
+      "reason": "Use for comparison with family-based GWAS; traditional GWAS is reserved for a historical or baseline-method context. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "family-based Mendelian randomization",
+      "allowed": [
+        "家系孟德尔随机化",
+        "FGWAS-MR"
+      ],
+      "forbidden": [],
+      "reason": "The project uses FGWAS-MR as its formal label; generic family-based MR descriptions still require context. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "inverse-variance weighted method",
+      "allowed": [
+        "逆方差加权法",
+        "IVW",
+        "MR-IVW",
+        "inverse-variance weighted"
+      ],
+      "forbidden": [],
+      "reason": "Define IVW first, then introduce the project comparison label MR-IVW; MR-IVW-F denotes its family-based version. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "instrumental variable",
+      "allowed": [
+        "工具变量",
+        "IV"
+      ],
+      "forbidden": [],
+      "reason": "Define IV at first use. Chinese prose uses IV rather than IVs; English plurals depend on grammar. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "direct genetic effect",
+      "allowed": [
+        "直接遗传效应",
+        "DGE"
+      ],
+      "forbidden": [],
+      "reason": "Define DGE at first use. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "indirect genetic effect",
+      "allowed": [
+        "间接遗传效应",
+        "IGE"
+      ],
+      "forbidden": [],
+      "reason": "Define IGE at first use; genetic nurture is one manifestation of parental IGE, not its synonym. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "Instrument Strength Independent of Direct Effect assumption",
+      "allowed": [
+        "工具强度独立于直接效应假设",
+        "InSIDE 假设",
+        "InSIDE assumption",
+        "InSIDE",
+        "Instrument Strength Independent of Direct Effect"
+      ],
+      "forbidden": [
+        "工具变量强度独立于直接效应假设"
+      ],
+      "reason": "Define InSIDE at first use and retain its capitalization. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "model averaging",
+      "allowed": [
+        "模型平均",
+        "MA"
+      ],
+      "forbidden": [],
+      "reason": "Define MA at first use. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "data perturbation",
+      "allowed": [
+        "数据扰动",
+        "DP"
+      ],
+      "forbidden": [],
+      "reason": "Define DP at first use. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "goodness-of-fit test",
+      "allowed": [
+        "拟合优度检验",
+        "GoF",
+        "GoF 检验",
+        "GoF test"
+      ],
+      "forbidden": [],
+      "reason": "Define GoF at first use; retain GoF test thereafter. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "modified Bayesian information criterion",
+      "allowed": [
+        "修正贝叶斯信息准则",
+        "BIC'"
+      ],
+      "forbidden": [],
+      "reason": "The project retains BIC'; preserve the prime in prose and formulas. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "average non-transmitted coefficient",
+      "allowed": [
+        "平均未传递亲代效应估计量",
+        "NTC"
+      ],
+      "forbidden": [],
+      "reason": "Retain the source expansion and NTC label; replace a generic parental-effect phrase only if it denotes this same quantity. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "Mendelian randomization analysis using mixture models",
+      "allowed": [
+        "混合模型孟德尔随机化方法",
+        "MRMix",
+        "Mendelian randomization mixture model"
+      ],
+      "forbidden": [],
+      "reason": "The source uses MRMix as the method name; distinguish it from the Gaussian mixture model used by the method. The published description is Mendelian randomization analysis using mixture models. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "allele harmonization",
+      "allowed": [
+        "等位基因协调"
+      ],
+      "forbidden": [
+        "效应等位基因统一"
+      ],
+      "reason": "Align effect alleles and their effect directions across exposure and outcome data. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "Monte Carlo simulation",
+      "allowed": [
+        "蒙特卡罗模拟"
+      ],
+      "forbidden": [],
+      "reason": "Names the random simulation procedure, rather than the overall study design. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "simulation study",
+      "allowed": [
+        "模拟研究"
+      ],
+      "forbidden": [
+        "统计模拟",
+        "模拟实验"
+      ],
+      "reason": "Use for study design, chapter names and overall evaluation. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "empirical analysis",
+      "allowed": [
+        "实例分析"
+      ],
+      "forbidden": [],
+      "reason": "The Chinese source reserves 实例分析 for chapter or section names. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "real-data analysis",
+      "allowed": [
+        "真实数据分析"
+      ],
+      "forbidden": [],
+      "reason": "Use for analysis procedures and results involving actual data. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "deoxyribonucleic acid",
+      "allowed": [
+        "脱氧核糖核酸",
+        "DNA"
+      ],
+      "forbidden": [],
+      "reason": "Define DNA before abbreviated use. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "single nucleotide polymorphism",
+      "allowed": [
+        "单核苷酸多态性",
+        "SNP"
+      ],
+      "forbidden": [],
+      "reason": "Define SNP before abbreviated use; English plurals may use SNPs. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "body mass index",
+      "allowed": [
+        "体质指数",
+        "BMI"
+      ],
+      "forbidden": [],
+      "reason": "Define BMI before abbreviated use. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "whole-genome sequencing",
+      "allowed": [
+        "全基因组测序",
+        "WGS"
+      ],
+      "forbidden": [],
+      "reason": "Define WGS before abbreviated use. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "whole-exome sequencing",
+      "allowed": [
+        "全外显子组测序",
+        "WES"
+      ],
+      "forbidden": [],
+      "reason": "Define WES before abbreviated use. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "genotyping array",
+      "allowed": [
+        "基因芯片"
+      ],
+      "forbidden": [],
+      "reason": "Use the established platform term; avoid mixing Chinese and English labels in Chinese prose. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "genotype imputation",
+      "allowed": [
+        "基因型插补"
+      ],
+      "forbidden": [
+        "基因型填充"
+      ],
+      "reason": "Use 基因型插补 in Chinese; do not confuse imputation with measurement. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "horizontal pleiotropy",
+      "allowed": [
+        "水平多效性"
+      ],
+      "forbidden": [],
+      "reason": "Retain horizontal when describing its subtypes. The source excludes the label 方向性水平多效性 as a project convention, not a general claim about the field. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "balanced horizontal pleiotropy",
+      "allowed": [
+        "平衡水平多效性"
+      ],
+      "forbidden": [
+        "平衡多效性"
+      ],
+      "reason": "Retain horizontal in the subtype name. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "correlated horizontal pleiotropy",
+      "allowed": [
+        "相关水平多效性"
+      ],
+      "forbidden": [
+        "相关多效性"
+      ],
+      "reason": "Retain horizontal; distinguish the confounding pathway from direct horizontal pleiotropy. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "uncorrelated horizontal pleiotropy",
+      "allowed": [
+        "非相关水平多效性"
+      ],
+      "forbidden": [
+        "非相关多效性"
+      ],
+      "reason": "Retain horizontal in the subtype name. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "direct horizontal pleiotropy",
+      "allowed": [
+        "直接水平多效性"
+      ],
+      "forbidden": [],
+      "reason": "The variant affects the outcome without a pathway through an unobserved confounder; the source uses $l_{o,j}$, $l_{f,j}$ and $l_{m,j}$. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "population stratification",
+      "allowed": [
+        "群体分层"
+      ],
+      "forbidden": [],
+      "reason": "A population-level source of confounding. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "genetic nurture",
+      "allowed": [
+        "遗传养育效应"
+      ],
+      "forbidden": [
+        "遗传培育效应"
+      ],
+      "reason": "One manifestation of parental IGE; do not treat it as the whole category of indirect genetic effects. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "assortative mating",
+      "allowed": [
+        "选型婚配"
+      ],
+      "forbidden": [],
+      "reason": "Use the source's preferred Chinese term 选型婚配. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "dynastic effect",
+      "allowed": [
+        "世袭效应"
+      ],
+      "forbidden": [
+        "王朝效应"
+      ],
+      "reason": "Use the source's preferred Chinese term 世袭效应 rather than 王朝效应. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "nuclear family",
+      "allowed": [
+        "核心家系"
+      ],
+      "forbidden": [],
+      "reason": "A family consisting of parents and offspring. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "sibling pair",
+      "allowed": [
+        "同胞对",
+        "sib-pair"
+      ],
+      "forbidden": [],
+      "reason": "Use 同胞对 in Chinese; English sib-pair is an accepted equivalent. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "offspring",
+      "allowed": [
+        "子代"
+      ],
+      "forbidden": [],
+      "reason": "Use 子代 in Chinese prose; English offspring remains valid in English abstracts. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "paternal",
+      "allowed": [
+        "父源"
+      ],
+      "forbidden": [],
+      "reason": "Describes the source of an effect; distinguish this from the father's observed genotype. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "maternal",
+      "allowed": [
+        "母源"
+      ],
+      "forbidden": [],
+      "reason": "Describes the source of an effect; distinguish this from the mother's observed genotype. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "father's genotype",
+      "allowed": [
+        "父亲基因型"
+      ],
+      "forbidden": [
+        "父源基因型"
+      ],
+      "reason": "The father's actual genotype; not a label for the origin of an effect. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "mother's genotype",
+      "allowed": [
+        "母亲基因型"
+      ],
+      "forbidden": [
+        "母源基因型"
+      ],
+      "reason": "The mother's actual genotype; not a label for the origin of an effect. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "family mean",
+      "allowed": [
+        "家系均值"
+      ],
+      "forbidden": [],
+      "reason": "A mean defined at the family level. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "sibling difference",
+      "allowed": [
+        "同胞差分"
+      ],
+      "forbidden": [],
+      "reason": "A difference between siblings, as defined by the study. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "summary statistics",
+      "allowed": [
+        "汇总统计量"
+      ],
+      "forbidden": [],
+      "reason": "Summary estimates and associated uncertainty; distinguish these from individual-level data. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "parents",
+      "allowed": [
+        "父母"
+      ],
+      "forbidden": [],
+      "reason": "Use 父母 for father and mother collectively. Retain 父母代 when discussing generations and preserve fixed names containing 亲代. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "Mendel's laws of inheritance",
+      "allowed": [
+        "孟德尔遗传定律"
+      ],
+      "forbidden": [
+        "孟德尔遗传规律"
+      ],
+      "reason": "Use 孟德尔遗传定律 consistently in Chinese. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "Hardy-Weinberg law",
+      "allowed": [
+        "哈代-温伯格定律"
+      ],
+      "forbidden": [],
+      "reason": "The source uses the law for a generating mechanism; Hardy-Weinberg equilibrium remains valid when describing a population state. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "effect estimator",
+      "allowed": [
+        "效应估计量"
+      ],
+      "forbidden": [],
+      "reason": "A statistical object or rule, not its realized numerical effect estimate. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "significance level",
+      "allowed": [
+        "显著性水平"
+      ],
+      "forbidden": [],
+      "reason": "A prespecified testing level; distinguish it from a threshold used for variant selection. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "significance threshold",
+      "allowed": [
+        "显著性阈值"
+      ],
+      "forbidden": [],
+      "reason": "A threshold for variant selection or statistical significance; identify the relevant analysis stage. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "test statistic",
+      "allowed": [
+        "检验统计量"
+      ],
+      "forbidden": [
+        "统计量检验"
+      ],
+      "reason": "The statistic used by a test, not the testing procedure itself. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "z test",
+      "allowed": [
+        "z 检验"
+      ],
+      "forbidden": [],
+      "reason": "Preserve the lowercase statistical symbol z. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "sensitivity analysis",
+      "allowed": [
+        "敏感性分析"
+      ],
+      "forbidden": [
+        "敏感度分析",
+        "灵敏度分析"
+      ],
+      "reason": "Use 敏感性分析 consistently in Chinese. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "multiple-testing correction",
+      "allowed": [
+        "多重检验校正"
+      ],
+      "forbidden": [],
+      "reason": "The source fixes 多重检验校正 as its Chinese term. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "between-study heterogeneity",
+      "allowed": [
+        "研究间异质性"
+      ],
+      "forbidden": [],
+      "reason": "Variation across studies or data sources, not individual-level variation. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "estimation bias",
+      "allowed": [
+        "估计偏倚"
+      ],
+      "forbidden": [],
+      "reason": "Systematic departure of an estimator's expectation from its target. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "stability of estimation",
+      "allowed": [
+        "估计稳定性"
+      ],
+      "forbidden": [],
+      "reason": "Variation in estimation results across scenarios or repeated perturbations; not consistency. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "empirical standard deviation",
+      "allowed": [
+        "经验标准差"
+      ],
+      "forbidden": [],
+      "reason": "Dispersion across simulation replicates; not a standard error. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "empirical variance",
+      "allowed": [
+        "经验方差"
+      ],
+      "forbidden": [],
+      "reason": "Variance computed from repeated simulations or perturbations; distinguish it from theoretical variance. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "theoretical variance",
+      "allowed": [
+        "理论方差"
+      ],
+      "forbidden": [],
+      "reason": "Variance derived from a model or asymptotic argument; not empirical variance. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "likelihood function",
+      "allowed": [
+        "似然函数"
+      ],
+      "forbidden": [
+        "似然性函数"
+      ],
+      "reason": "Use the standard likelihood terminology. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "log-likelihood function",
+      "allowed": [
+        "对数似然函数"
+      ],
+      "forbidden": [],
+      "reason": "The logarithm of a likelihood function. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "profile likelihood",
+      "allowed": [
+        "轮廓似然"
+      ],
+      "forbidden": [
+        "剖面似然"
+      ],
+      "reason": "Obtained by eliminating or optimizing over nuisance parameters; the source uses 轮廓似然 in Chinese. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "weighted profile likelihood function",
+      "allowed": [
+        "加权轮廓似然函数"
+      ],
+      "forbidden": [],
+      "reason": "The specific objective used by MR-Family and related methods in the source. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "maximum likelihood estimation",
+      "allowed": [
+        "极大似然估计"
+      ],
+      "forbidden": [
+        "最大似然估计"
+      ],
+      "reason": "Use 极大似然估计 in Chinese; distinguish an estimation procedure from its realized estimate. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "constrained maximum likelihood",
+      "allowed": [
+        "约束极大似然"
+      ],
+      "forbidden": [],
+      "reason": "The framework used by MRcML. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "nuisance parameter",
+      "allowed": [
+        "讨厌参数"
+      ],
+      "forbidden": [
+        "干扰参数"
+      ],
+      "reason": "Use 讨厌参数 under this project's Chinese convention. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "observed information matrix",
+      "allowed": [
+        "观测信息矩阵"
+      ],
+      "forbidden": [
+        "观测信息量矩阵"
+      ],
+      "reason": "Preserve observed; do not confuse it with expected information. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "Hessian matrix",
+      "allowed": [
+        "Hessian 矩阵"
+      ],
+      "forbidden": [],
+      "reason": "The matrix of second derivatives; specify the objective and sign convention in context. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "Schur complement",
+      "allowed": [
+        "Schur 补"
+      ],
+      "forbidden": [],
+      "reason": "Used to obtain information for target parameters from a partitioned information matrix. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "consistency",
+      "allowed": [
+        "一致性"
+      ],
+      "forbidden": [],
+      "reason": "Retain the mathematical distinction where needed; do not replace either with stability. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "asymptotic consistency",
+      "allowed": [
+        "渐近一致性"
+      ],
+      "forbidden": [],
+      "reason": "Retain the mathematical distinction where needed; do not replace either with stability. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "consistent estimator",
+      "allowed": [
+        "一致估计量"
+      ],
+      "forbidden": [],
+      "reason": "An estimator converging to its target as sample size increases. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "asymptotic normality",
+      "allowed": [
+        "渐近正态性"
+      ],
+      "forbidden": [
+        "渐近正态分布性"
+      ],
+      "reason": "A property of a suitably normalized limiting distribution. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "asymptotic variance",
+      "allowed": [
+        "渐近方差"
+      ],
+      "forbidden": [],
+      "reason": "Variance in a limiting distribution or asymptotic expansion. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "Lindeberg condition",
+      "allowed": [
+        "Lindeberg 条件"
+      ],
+      "forbidden": [],
+      "reason": "Retain the proper name. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "Lyapunov condition",
+      "allowed": [
+        "Lyapunov 条件"
+      ],
+      "forbidden": [],
+      "reason": "Retain the proper name. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "correlation coefficient",
+      "allowed": [
+        "相关系数"
+      ],
+      "forbidden": [
+        "相关性系数"
+      ],
+      "reason": "A coefficient, not an unspecified association measure. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "cross-covariance",
+      "allowed": [
+        "交叉协方差"
+      ],
+      "forbidden": [],
+      "reason": "Covariance between exposure and outcome effect estimates; use cross-covariance matrix for the matrix object. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "sampling variance-covariance matrix",
+      "allowed": [
+        "抽样方差-协方差矩阵"
+      ],
+      "forbidden": [],
+      "reason": "The variance-covariance structure of estimation errors in summary statistics. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "fixed-effect model",
+      "allowed": [
+        "固定效应模型"
+      ],
+      "forbidden": [],
+      "reason": "Used for fixed-effect combination of ancestry-specific results. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "random-effects model",
+      "allowed": [
+        "随机效应模型"
+      ],
+      "forbidden": [],
+      "reason": "Allows heterogeneity in effects across ancestry groups. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "natural randomization",
+      "allowed": [
+        "自然随机化"
+      ],
+      "forbidden": [],
+      "reason": "Describes the analogy between genetic allocation and a randomized trial. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "randomized controlled trial",
+      "allowed": [
+        "随机对照试验"
+      ],
+      "forbidden": [
+        "随机控制试验"
+      ],
+      "reason": "Use 随机对照试验 consistently in Chinese. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "genetic epidemiology",
+      "allowed": [
+        "遗传流行病学"
+      ],
+      "forbidden": [
+        "遗传流行病学学"
+      ],
+      "reason": "Use the established disciplinary name. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "relevance assumption",
+      "allowed": [
+        "相关性假设"
+      ],
+      "forbidden": [],
+      "reason": "Requires an instrumental variable to be associated with the exposure. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "independence assumption",
+      "allowed": [
+        "独立性假设"
+      ],
+      "forbidden": [],
+      "reason": "Requires an instrumental variable to be independent of confounders. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "exclusion restriction assumption",
+      "allowed": [
+        "排除限制假设"
+      ],
+      "forbidden": [],
+      "reason": "Requires an instrumental variable to affect the outcome only through the exposure. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "weak instrumental variable",
+      "allowed": [
+        "弱工具变量"
+      ],
+      "forbidden": [
+        "弱 IV 变量"
+      ],
+      "reason": "Chinese prose may subsequently refer to a 弱 IV 问题. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "valid IV",
+      "allowed": [
+        "有效 IV"
+      ],
+      "forbidden": [],
+      "reason": "Opposite validity states; keep them as separate concepts. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "invalid IV",
+      "allowed": [
+        "无效 IV"
+      ],
+      "forbidden": [],
+      "reason": "Opposite validity states; keep them as separate concepts. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "Wald ratio method",
+      "allowed": [
+        "Wald 比值法"
+      ],
+      "forbidden": [],
+      "reason": "A causal-effect estimator for the single-instrument setting. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "MR-Egger",
+      "allowed": [],
+      "forbidden": [
+        "MR Egger"
+      ],
+      "reason": "Preserve spelling, capitalization and the hyphen. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "MR-Lasso",
+      "allowed": [],
+      "forbidden": [
+        "MR Lasso"
+      ],
+      "reason": "Preserve spelling, capitalization and the hyphen. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "Mendelian randomization based on constrained maximum likelihood",
+      "allowed": [
+        "基于约束极大似然的孟德尔随机化",
+        "MRcML"
+      ],
+      "forbidden": [],
+      "reason": "Define MRcML at first use and retain the method name thereafter. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "cisMR-cML",
+      "allowed": [],
+      "forbidden": [],
+      "reason": "Preserve the formal method name and its capitalization. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "Gaussian mixture model",
+      "allowed": [
+        "高斯混合模型"
+      ],
+      "forbidden": [],
+      "reason": "The statistical model used by MRMix, not the MRMix method name. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "expectation-maximization algorithm",
+      "allowed": [
+        "期望最大化算法"
+      ],
+      "forbidden": [
+        "最大期望算法"
+      ],
+      "reason": "Use 期望最大化算法 in Chinese; do not reverse the two operations in its name. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "causal analysis using summary effect estimates",
+      "allowed": [
+        "因果异常评分估计方法"
+      ],
+      "forbidden": [],
+      "reason": "English rendering of the method referred to by the source's Chinese label; no new abbreviation is introduced here. The source cites Morrison et al. (2020); see the verification references below. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "majority-valid assumption",
+      "allowed": [
+        "多数 IV 有效假设",
+        "多数 IV 有效"
+      ],
+      "forbidden": [],
+      "reason": "Requires a majority of valid IV; distinguish it from a plurality condition. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "plurality-valid condition",
+      "allowed": [
+        "最大有效 IV 组条件",
+        "最大有效 IV 组"
+      ],
+      "forbidden": [],
+      "reason": "The valid IV group is the largest group under the relevant identification condition; this need not be a majority. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "two IV sets",
+      "allowed": [
+        "双 IV 集合"
+      ],
+      "forbidden": [
+        "双工具集合"
+      ],
+      "reason": "The offspring IV set and the auxiliary parental IV set. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "parental effect block",
+      "allowed": [
+        "父母效应块"
+      ],
+      "forbidden": [],
+      "reason": "The joint block of paternal and maternal effects for the same SNP; not a set of parental SNPs. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "validity indicator vector",
+      "allowed": [
+        "有效性指示向量"
+      ],
+      "forbidden": [
+        "有效 IV 指示变量"
+      ],
+      "reason": "A vector marking whether candidate IV are valid. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "sparsity constraint",
+      "allowed": [
+        "稀疏约束"
+      ],
+      "forbidden": [
+        "稀疏限制"
+      ],
+      "reason": "A constraint, not a prior or a penalty. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "$L_0$ constraint",
+      "allowed": [
+        "$L_0$ 约束"
+      ],
+      "forbidden": [
+        "L0约束"
+      ],
+      "reason": "Preserve the mathematical notation; do not flatten it into L0约束 in Chinese. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "Lasso penalty",
+      "allowed": [
+        "Lasso 惩罚"
+      ],
+      "forbidden": [
+        "LASSO惩罚"
+      ],
+      "reason": "Preserve the capitalization Lasso. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "coordinate descent algorithm",
+      "allowed": [
+        "坐标下降算法"
+      ],
+      "forbidden": [
+        "坐标下降法"
+      ],
+      "reason": "Use 坐标下降算法 consistently in Chinese. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "grid search",
+      "allowed": [
+        "网格搜索"
+      ],
+      "forbidden": [],
+      "reason": "Search across candidate hyperparameters or combinations of valid-IV counts. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "stability selection",
+      "allowed": [
+        "稳定性选择"
+      ],
+      "forbidden": [
+        "稳定选择"
+      ],
+      "reason": "Use 稳定性选择 consistently in Chinese. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "empirical Bayes",
+      "allowed": [
+        "经验贝叶斯"
+      ],
+      "forbidden": [
+        "经验 Bayes"
+      ],
+      "reason": "Use 经验贝叶斯 consistently in Chinese. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "sparse prior",
+      "allowed": [
+        "稀疏先验"
+      ],
+      "forbidden": [],
+      "reason": "A Bayesian prior, not a sparsity constraint. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "posterior distribution",
+      "allowed": [
+        "后验分布"
+      ],
+      "forbidden": [
+        "后验概率分布"
+      ],
+      "reason": "Use 后验分布 consistently in Chinese. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "marginal likelihood",
+      "allowed": [
+        "边际似然"
+      ],
+      "forbidden": [],
+      "reason": "An objective for model comparison or hyperparameter selection. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "proximal gradient algorithm",
+      "allowed": [
+        "近端梯度算法"
+      ],
+      "forbidden": [
+        "近端梯度法"
+      ],
+      "reason": "Use 近端梯度算法 consistently in Chinese. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "mixed-integer optimization",
+      "allowed": [
+        "混合整数优化"
+      ],
+      "forbidden": [],
+      "reason": "Used for discrete selection of valid IV. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "Mendelian trait",
+      "allowed": [
+        "孟德尔性状"
+      ],
+      "forbidden": [
+        "孟德尔特征"
+      ],
+      "reason": "Distinguish it from a complex trait. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "gene-environment interaction",
+      "allowed": [
+        "基因—环境交互作用"
+      ],
+      "forbidden": [
+        "基因环境交互"
+      ],
+      "reason": "Use 基因—环境交互作用 with the source's Chinese dash. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "chromosome",
+      "allowed": [
+        "染色体"
+      ],
+      "forbidden": [],
+      "reason": "Do not replace it with chromosome set. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "autosome",
+      "allowed": [
+        "常染色体"
+      ],
+      "forbidden": [
+        "体染色体"
+      ],
+      "reason": "Distinguish it from a sex chromosome. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "sex chromosome",
+      "allowed": [
+        "性染色体"
+      ],
+      "forbidden": [
+        "性别染色体"
+      ],
+      "reason": "Use the established genetic term. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "genome",
+      "allowed": [
+        "基因组"
+      ],
+      "forbidden": [],
+      "reason": "Do not add whole when the context does not require it. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "base pair",
+      "allowed": [
+        "碱基对"
+      ],
+      "forbidden": [],
+      "reason": "A unit or paired bases, not the process of base pairing. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "deoxyribonucleotide",
+      "allowed": [
+        "脱氧核苷酸"
+      ],
+      "forbidden": [],
+      "reason": "Distinguish it from deoxyribonucleic acid. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "double-helix structure",
+      "allowed": [
+        "双螺旋结构"
+      ],
+      "forbidden": [],
+      "reason": "A description of DNA structure. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "complementary base pairing",
+      "allowed": [
+        "碱基互补配对"
+      ],
+      "forbidden": [],
+      "reason": "The process of complementary pairing between bases. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "genetic locus",
+      "allowed": [
+        "遗传位点"
+      ],
+      "forbidden": [],
+      "reason": "Use a gene locus only when the context specifically identifies a gene. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "genome-wide scope",
+      "allowed": [
+        "基因组范围"
+      ],
+      "forbidden": [],
+      "reason": "Used for statements about scope; retain genome-wide as an adjective where grammar requires it. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "coding region",
+      "allowed": [
+        "编码区"
+      ],
+      "forbidden": [
+        "编码区域"
+      ],
+      "reason": "Use 编码区 consistently in Chinese. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "regulatory region",
+      "allowed": [
+        "调控区"
+      ],
+      "forbidden": [
+        "调控区域"
+      ],
+      "reason": "Use 调控区 consistently in Chinese. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "intergenic region",
+      "allowed": [
+        "基因间区域"
+      ],
+      "forbidden": [],
+      "reason": "Use 基因间区域 consistently in Chinese. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "effect allele",
+      "allowed": [
+        "效应等位基因"
+      ],
+      "forbidden": [],
+      "reason": "The allele to which an association effect refers; distinguish it from the non-effect allele. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "non-effect allele",
+      "allowed": [
+        "非效应等位基因"
+      ],
+      "forbidden": [
+        "非效应 allele"
+      ],
+      "reason": "The allele contrasted with the effect allele. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "minor allele frequency",
+      "allowed": [
+        "次要等位基因频率"
+      ],
+      "forbidden": [
+        "次要等位基因频数"
+      ],
+      "reason": "A frequency, not a count. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "insertion-deletion variant",
+      "allowed": [
+        "插入缺失"
+      ],
+      "forbidden": [
+        "插入/删除变异"
+      ],
+      "reason": "Use 插入缺失 under the source's convention. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "copy number variation",
+      "allowed": [
+        "拷贝数变异"
+      ],
+      "forbidden": [
+        "拷贝数改变"
+      ],
+      "reason": "Use 拷贝数变异 consistently in Chinese. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "short tandem repeat sequence",
+      "allowed": [
+        "短串联重复序列"
+      ],
+      "forbidden": [
+        "短串联重复片段"
+      ],
+      "reason": "Use 短串联重复序列 consistently in Chinese. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "structural variation",
+      "allowed": [
+        "结构变异"
+      ],
+      "forbidden": [
+        "结构性变异"
+      ],
+      "reason": "Use 结构变异 consistently in Chinese. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "high-throughput genotyping",
+      "allowed": [
+        "高通量基因分型"
+      ],
+      "forbidden": [
+        "高通量基因型检测"
+      ],
+      "reason": "Use 高通量基因分型 consistently in Chinese. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "high-throughput sequencing",
+      "allowed": [
+        "高通量测序"
+      ],
+      "forbidden": [],
+      "reason": "Use 高通量测序 as the fixed Chinese term. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "oligonucleotide probe",
+      "allowed": [
+        "寡核苷酸探针"
+      ],
+      "forbidden": [
+        "寡核苷酸探测器"
+      ],
+      "reason": "Use 寡核苷酸探针 consistently in Chinese. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "reference panel",
+      "allowed": [
+        "参考面板"
+      ],
+      "forbidden": [
+        "参考板"
+      ],
+      "reason": "The reference data used for genotype imputation. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "palindromic SNP",
+      "allowed": [
+        "回文 SNP"
+      ],
+      "forbidden": [],
+      "reason": "An A/T or C/G SNP whose strand orientation may be ambiguous. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "ambiguous strand orientation",
+      "allowed": [
+        "链方向不明确"
+      ],
+      "forbidden": [
+        "链不清晰"
+      ],
+      "reason": "A possible exclusion reason during data harmonization. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "strand alignment",
+      "allowed": [
+        "统一链方向"
+      ],
+      "forbidden": [],
+      "reason": "A preprocessing step during allele harmonization. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "continuous trait",
+      "allowed": [
+        "连续性状"
+      ],
+      "forbidden": [],
+      "reason": "A trait with continuous values; not a binary outcome. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "quantitative trait",
+      "allowed": [
+        "定量性状"
+      ],
+      "forbidden": [],
+      "reason": "A measurable quantitative trait; related to, but not identical with, continuous trait. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "binary outcome",
+      "allowed": [
+        "二分类结局"
+      ],
+      "forbidden": [
+        "二元结局"
+      ],
+      "reason": "Use 二分类结局 consistently in Chinese. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "survival outcome",
+      "allowed": [
+        "生存结局"
+      ],
+      "forbidden": [
+        "生存性状"
+      ],
+      "reason": "Use 生存结局 consistently in Chinese. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "nonlinear causal relationship",
+      "allowed": [
+        "非线性因果关系"
+      ],
+      "forbidden": [],
+      "reason": "A statement about a relationship, not automatically a particular causal-effect parameter. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "multivariable MR",
+      "allowed": [
+        "多变量 MR"
+      ],
+      "forbidden": [
+        "多元 MR"
+      ],
+      "reason": "Use 多变量 MR consistently in Chinese. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "parent-offspring trio",
+      "allowed": [
+        "父母—子代三联体",
+        "三联体",
+        "trio"
+      ],
+      "forbidden": [
+        "父母子代三联体"
+      ],
+      "reason": "A father, mother and offspring; preserve the Chinese form 父母—子代三联体. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "within-sibship GWAS",
+      "allowed": [
+        "同胞内 GWAS"
+      ],
+      "forbidden": [],
+      "reason": "Emphasizes comparisons within sibling groups. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "random genetic transmission within families",
+      "allowed": [
+        "家系内随机遗传传递"
+      ],
+      "forbidden": [
+        "家系内随机分配"
+      ],
+      "reason": "Describes inheritance within a family, rather than environmental allocation. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "between-family environmental differences",
+      "allowed": [
+        "家系间环境差异"
+      ],
+      "forbidden": [],
+      "reason": "Distinguish them from random genetic transmission within a family. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "shared family environment",
+      "allowed": [
+        "共享家庭环境"
+      ],
+      "forbidden": [
+        "家庭共享环境"
+      ],
+      "reason": "Use 共享家庭环境 consistently in Chinese. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "non-transmitted allele",
+      "allowed": [
+        "未传递等位基因"
+      ],
+      "forbidden": [
+        "未传递基因"
+      ],
+      "reason": "An allele, not an entire non-transmitted gene. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "parent-offspring genotype correlation",
+      "allowed": [
+        "亲子基因型相关性"
+      ],
+      "forbidden": [
+        "亲子基因型关联"
+      ],
+      "reason": "Correlation between parental and offspring genotypes. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "family-level confounding",
+      "allowed": [
+        "家系层面混杂"
+      ],
+      "forbidden": [
+        "家庭层面混杂"
+      ],
+      "reason": "Use 家系层面混杂 consistently in Chinese. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "parental effect",
+      "allowed": [
+        "父母效应"
+      ],
+      "forbidden": [],
+      "reason": "An umbrella description; specify paternal or maternal IGE when the source is known. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "paternal IGE",
+      "allowed": [
+        "父源 IGE"
+      ],
+      "forbidden": [],
+      "reason": "Effect origins; not the father's or mother's observed genotype. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "maternal IGE",
+      "allowed": [
+        "母源 IGE"
+      ],
+      "forbidden": [],
+      "reason": "Effect origins; not the father's or mother's observed genotype. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "unified estimator",
+      "allowed": [
+        "统一估计量"
+      ],
+      "forbidden": [
+        "综合估计量"
+      ],
+      "reason": "Combines individuals with and without information on relatives under the source's design. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "robust estimator",
+      "allowed": [
+        "稳健估计量"
+      ],
+      "forbidden": [
+        "鲁棒估计量"
+      ],
+      "reason": "Uses random genetic transmission within families to reduce sensitivity to population stratification under the source's assumptions. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "one-sample MR using summary statistics",
+      "allowed": [
+        "单样本汇总统计量 MR"
+      ],
+      "forbidden": [],
+      "reason": "The source's design for its real-data analysis. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "two-sample MR",
+      "allowed": [
+        "双样本 MR"
+      ],
+      "forbidden": [],
+      "reason": "Exposure and outcome summary statistics come from different or independent samples; describe overlap explicitly if present. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "sample overlap",
+      "allowed": [
+        "样本重叠"
+      ],
+      "forbidden": [
+        "样本交叠"
+      ],
+      "reason": "Use 样本重叠 consistently in Chinese. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "negative-control design",
+      "allowed": [
+        "负对照设计"
+      ],
+      "forbidden": [
+        "阴性对照设计"
+      ],
+      "reason": "Use 负对照设计 under this project's convention. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "semi-simulated data",
+      "allowed": [
+        "半模拟数据"
+      ],
+      "forbidden": [
+        "伪真实数据"
+      ],
+      "reason": "Simulated data constructed using real data as a basis. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "UK Biobank",
+      "allowed": [
+        "英国生物样本库",
+        "UKB"
+      ],
+      "forbidden": [
+        "英国生物银行"
+      ],
+      "reason": "Define UKB at first use; Chinese first use may include both 英国生物样本库 and UK Biobank. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "White British ancestry",
+      "allowed": [
+        "白人英国祖源"
+      ],
+      "forbidden": [],
+      "reason": "The source's description of ancestry in its data; do not generalize it to other samples. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "ancestry heterogeneity",
+      "allowed": [
+        "祖源异质性"
+      ],
+      "forbidden": [],
+      "reason": "Differences in genetic background across ancestry groups. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "admixed ancestry",
+      "allowed": [
+        "混合祖源"
+      ],
+      "forbidden": [],
+      "reason": "Describes ancestry composition, rather than the process of admixture. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "ancestry admixture",
+      "allowed": [
+        "祖源混合"
+      ],
+      "forbidden": [],
+      "reason": "Describes the process; not interchangeable with admixed ancestry in every sentence. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "Social Science Genetic Association Consortium",
+      "allowed": [],
+      "forbidden": [],
+      "reason": "Preserve the institution's proper name; do not introduce an additional abbreviation here. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "transcriptome-wide association study",
+      "allowed": [
+        "全转录组关联研究"
+      ],
+      "forbidden": [
+        "全转录组关联分析"
+      ],
+      "reason": "Use 全转录组关联研究 as the fixed Chinese term. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "proteomic MR",
+      "allowed": [
+        "蛋白质组 MR"
+      ],
+      "forbidden": [
+        "蛋白组 MR"
+      ],
+      "reason": "Use 蛋白质组 MR consistently in Chinese. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "metabolomic MR",
+      "allowed": [
+        "代谢组 MR"
+      ],
+      "forbidden": [
+        "代谢组学 MR"
+      ],
+      "reason": "Use 代谢组 MR consistently in Chinese. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "rejection rate",
+      "allowed": [
+        "拒绝率"
+      ],
+      "forbidden": [],
+      "reason": "The proportion of simulation replicates rejecting the null; it estimates type I error rate under the null and power under the alternative. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "covariance matrix",
+      "allowed": [
+        "协方差矩阵"
+      ],
+      "forbidden": [],
+      "reason": "Preserve the name appropriate to the mathematical object; do not mechanically replace every matrix name with variance-covariance matrix. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "cross-covariance matrix",
+      "allowed": [
+        "交叉协方差矩阵"
+      ],
+      "forbidden": [],
+      "reason": "A matrix of cross-covariances; distinct from a generic variance-covariance matrix. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "joint covariance matrix",
+      "allowed": [
+        "联合协方差矩阵"
+      ],
+      "forbidden": [],
+      "reason": "A covariance matrix for a joint vector; retain the object-specific name. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "combined covariance matrix",
+      "allowed": [
+        "组合协方差矩阵"
+      ],
+      "forbidden": [],
+      "reason": "The source-specific combined matrix; retain its mathematical definition. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "effect estimation",
+      "allowed": [
+        "效应估计"
+      ],
+      "forbidden": [],
+      "reason": "The act or process of estimation; not an estimator or a realized estimate. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    },
+    {
+      "canonical": "Hardy-Weinberg equilibrium",
+      "allowed": [
+        "哈代-温伯格平衡"
+      ],
+      "forbidden": [],
+      "reason": "A population equilibrium state; distinguish it from the law or the generating mechanism. Chinese equivalents and retained abbreviations are accepted; first-use and language-domain rules require contextual review."
+    }
+  ]
+}
