@@ -203,31 +203,8 @@ Windows 或 Linux 用户需要根据本机字体修改 `smuthesis.cls` 中的 `\
 
 在 macOS 上，模板会优先读取 Microsoft Word 自带的 `Deng.ttf` 和 `Dengb.ttf`；在 Windows 上则使用系统安装的 `DengXian`。未找到等线字体时会回退到 `Heiti SC Light` 并给出编译警告。
 
-## 共用专有名词库
+## 专有名词库
 
-本模板的医学统计、遗传流行病学与家系 MR 词库统一维护在 [biostatistics-terminology-bank](https://gitee.com/jiahaomai152XMMMM/biostatistics-terminology-bank)。模板保留经过校验的词库快照，克隆后即可离线写作和检查，不需要 Git 子模块。
+本模板不附带词库、词库快照或同步脚本。专有名词统一在 [biostatistics-terminology-bank](https://gitee.com/jiahaomai152XMMMM/biostatistics-terminology-bank) 维护，每条仅包含官方中文表达和官方英文表达，至少填写一个。
 
-- `.academic-writing-terms.json`：中文标准名词库，学术写作工坊自动发现并用于术语检查与 AI 改写。
-- `terminology.en.json`：单独审核的英文标准名版本。英文项目可先备份默认 JSON，再以该文件替换；不要同时链接两份标准名不同的词库。
-- `术语表.md`、`terminology.en.md`：由 JSON 生成的查阅表。
-- `.academic-writing-terms.source.json`：来源仓库、版本提交号和文件指纹。
-
-### 更新词库
-
-需要 Python 3.9+ 和 Git，在模板根目录运行：
-
-```bash
-python3 scripts/sync-terminology.py
-# 使用本地维护仓库，适用于离线同步：
-python3 scripts/sync-terminology.py --source /path/to/biostatistics-terminology-bank
-# 仅核对，不改写模板文件：
-python3 scripts/sync-terminology.py --check
-```
-
-脚本先校验全部词条，再更新快照。若本地改过词库或查阅表，会拒绝覆盖；先把改进维护到源仓库，或使用 `--force`，脚本会备份被覆盖的文件。
-
-### 继续优化
-
-优先编辑维护仓库的 `terms.json` 并提交；英文版本在 `terms.en.json` 单独核对。使用新版学术写作工坊也可在「专有名词库 → 官方词库」编辑、获取更新、提交并推送优化。本机编辑先自动保存，只有主动提交才推送至远端；认证或冲突失败会保留本地内容。
-
-模板中的 JSON 是当前论文的快照，可按研究要求定制。插件里的「官方词库」则是多个项目共用的维护副本；如果已经定制项目快照，不要同时加载有冲突的官方规则，应先核对差异。首次定义、语言范围和近义概念边界仍须结合正文语境审核，词库不授权机械替换。
+需要术语检查时，在学术写作工坊的「专有名词库 → 官方词库」中关联。词库的搜索、编辑、获取更新和提交优化均由插件完成；模板不复制词库，因此维护源更新无需再同步到模板仓库。
