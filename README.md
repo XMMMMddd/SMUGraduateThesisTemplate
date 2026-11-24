@@ -202,9 +202,3 @@ bash skills/smu-thesis-writing/scripts/audit-thesis.sh 毕业论文_smuthesis.te
 Windows 或 Linux 用户需要根据本机字体修改 `smuthesis.cls` 中的 `\setCJKmainfont`、`\setCJKsansfont`、`\setCJKmonofont` 和相关字体族配置。
 
 在 macOS 上，模板会优先读取 Microsoft Word 自带的 `Deng.ttf` 和 `Dengb.ttf`；在 Windows 上则使用系统安装的 `DengXian`。未找到等线字体时会回退到 `Heiti SC Light` 并给出编译警告。
-
-## 专有名词库
-
-本模板不附带词库、词库快照或同步脚本。专有名词统一在 [biostatistics-terminology-bank](https://gitee.com/jiahaomai152XMMMM/biostatistics-terminology-bank) 维护，每条仅包含官方中文表达和官方英文表达，至少填写一个。
-
-需要术语检查时，在学术写作工坊的「专有名词库 → 官方词库」中关联。词库的搜索、编辑、获取更新和提交优化均由插件完成；模板不复制词库，因此维护源更新无需再同步到模板仓库。
